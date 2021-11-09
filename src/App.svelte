@@ -1,38 +1,32 @@
+<script>
+	// This file is for routing
+	// You can mount a Route. as SPA
+
+	import router from "page"
+	import Home from './comps/home.svelte'
+	import About from './comps/about.svelte'
+	import Team from './comps/team.svelte'
+	import Contact from './comps/contact.svelte'
+	import Service from './comps/services.svelte'
+	import Portfolio from './comps/portfolio.svelte'
+	import NotFound from './comps/not_found.svelte'
+
+	let page;
+	router('/', () => page = Home)
+	router('/about', () => page = About)
+	router('/team', () => page = Team)
+	router('/contact', () => page = Contact)
+	router('/service', () => page = Service)
+	router('/Portfolio', () => page = Portfolio)
+	router('*', () => page = NotFound)
+
+
+	router.start()
+</script>
+
 <main>
-
-
-	<article>
-		<h1>Coming Soon ... 😎</h1>
-		<p>Under Maintenance👷</p>
-	</article>
-	<footer>
-		<h5>© The Round Table  - 2020-2021</h5>
-	</footer>
+	<svelte:component this={page} />
 </main>
 
 <style>
-html {
-    position: relative;
-    min-height: 100%;
-}
-
-article{
-	text-align: center;
-	padding: 2%;
-}
-article > p {
-	padding: 1%;
-}
-
-footer {
-	text-align: left;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    overflow: hidden;
-	padding: 1%;
-}
-
-
 </style>

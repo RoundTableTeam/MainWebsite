@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'yekanLight';
+    src: url("1-yekanLight.woff2");
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'yekanWeb';
+    src: url("2-yekanWeb.woff2");
+    font-weight: 400;
+
+}
+@font-face {
+    font-family: 'yekanMedium';
+    src: url("3-yekanMedium.woff");
+    font-weight: 500;
+
+}
+@font-face {
+    font-family: 'yekanBold';
+    src: url("4-yekanBold.woff2");
+    font-weight: 700;
+
+}
+@font-face {
+    font-family: 'yekanExtraBold';
+    src: url("5-yekanExtraBold.woff");
+    font-weight: 1000;
+
+}
+
+@font-face {
+    font-family: 'robotoRegular';
+    src: url("../aeFrontEnd/style/font/robotoLight.ttf");
+    font-weight: 1000;
+
+}
+
+
+
