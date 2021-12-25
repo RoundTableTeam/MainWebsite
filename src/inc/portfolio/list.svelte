@@ -12,9 +12,9 @@
                     <div class="col text-center margin-30px-bottom sm-margin-15px-bottom wow animate__fadeIn" data-wow-delay="0.2s">
                         <a href="{sample.link}">
                             <div class="portfolio-box">
-                                <div class="portfolio-image bg-gradient-sky-blue-pink">
+                                <div class="portfolio-image ">
                                     <img src="{sample.img}" alt="{sample.name}" />
-                                    <div class="portfolio-hover bg-white justify-content-center d-flex flex-column">
+                                    <div class="portfolio-hover opacity-6 bg-transparent-white justify-content-center d-flex flex-column">
                                         <div class="scale">
                                             <div class="alt-font text-extra-dark-gray font-weight-500 d-block">{sample.name}</div>
                                             <div class="text-uppercase text-medium-gray text-small alt-font d-block">{sample.type}</div>

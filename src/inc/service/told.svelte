@@ -1,25 +1,25 @@
 <script>
-    let title = "تایتل"
-    let title2 = "تایتل2"
+    let title = ""
+    let title2 = "از مشتری ها بشنوید"
 
     let tolds = [
         {
-            told: "عالی است بسیار بسیار",
-            name: "احمد ذوقی",
-            pos: "مدیر مالی آستارا",
-            img: "images/testimonial-img-11.jpg",
+            told: "با گروه میز گرد حالا به فراتر از یک کلاس و مدرسه تدریس می کنم",
+            name: "استاد ساداتیان مدرس فیزیک",
+            pos: "دبیر برتر فیزیک استان البرز",
+            img: "images/sadatian.png",
         },
         {
-            told: "عالی است بسیار بسیار",
-            name: "احمد ذوقی",
-            pos: "مدیر مالی آستارا",
-            img: "images/testimonial-img-11.jpg",
+            told: "علاوه بر هزینه کمتر که برای نشون دادن فایل ها هزینه میکنم لازم نیست وقتمو مثل قبل هدر بدم حالا همون کار هارو با وقت و هزینه کمتر انجام میدم",
+            name: "علیرضا محمدکریمی",
+            pos: "مدیریت املاک املاک ایوان مدائن ",
+            img: "images/k-madaen.png",
         },
         {
-            told: "عالی است بسیار بسیار",
-            name: "احمد ذوقی",
-            pos: "مدیر مالی آستارا",
-            img: "images/testimonial-img-11.jpg",
+            told: "فوت کوزه گری توی کسب و کارتون توی دستای گروه میزگرده",
+            name: "محمد مهدی میزان",
+            pos: "مدیریت صنایع چوبی و مبلمان میزان",
+            img: "images/k-mizan.png",
         },
 
     ]
@@ -53,16 +53,6 @@
             </div>
             {/each}
         </div>
-        <div class="row row-cols-1 row-cols-lg-6 row-cols-md-3 row-cols-sm-2 client-logo-style-04">
-            {#each _clients as client}
-            <div class="col text-center sm-no-margin wow animate__fadeIn">
-                <div class="client-box padding-25px-all text-center" title="{client.name}">
-                    <a href="#"><img alt="{client.name}" src="{client.img}"></a>
-                    <span class="client-overlay bg-white box-shadow-small border-radius-4px"></span>
-                </div>
-            </div>
-            {/each}
 
-        </div>
     </div>
 </section>

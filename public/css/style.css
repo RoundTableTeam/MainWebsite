@@ -2441,7 +2441,7 @@ input.btn:focus {
     text-align:center
 }
 .btn.btn-rounded.btn-extra-large.btn-expand-ltr {
-    padding:15px 28px 15px
+    padding: 17px 35px 11px;
 }
 .btn.btn-rounded.btn-extra-large.btn-expand-ltr span {
     width:50px
@@ -6259,8 +6259,8 @@ input.btn:focus {
     padding-bottom:7.5rem
 }
 .padding-8-rem-tb {
-    padding-top:8rem;
-    padding-bottom:8rem
+    padding-top: 30rem;
+    padding-bottom:8rem;
 }
 .padding-8-half-rem-tb {
     padding-top:8.5rem;
@@ -10966,10 +10966,11 @@ header .header-cart-icon .cart-count {
 .scroll-down-bottom .scroll-down-text {
     position:absolute;
     bottom:25px;
-    transform:rotate(-90deg);
-    width:100px;
+    width: 136px;
+    right: 109px;
+    left: -2px;
     height:auto;
-    transform-origin:0
+    transform-origin:0;
 }
 .scroll-down {
     position:absolute;
@@ -19160,4 +19161,7 @@ input[type=checkbox].error {
 }
 .gdpr-container .btn {
     display:inline-block
+}
+.feature-section{
+    padding: 50px;
 }

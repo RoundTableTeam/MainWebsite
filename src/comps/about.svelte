@@ -14,7 +14,6 @@
 
     <Title/>
     <About/>
-    <Client/>
     <Features/>
 
     <Footer/>

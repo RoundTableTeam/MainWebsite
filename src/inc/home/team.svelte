@@ -39,8 +39,7 @@
         <div class="row">
             <div class="col-12 text-center margin-6-half-rem-top lg-margin-5-rem-top wow animate__fadeIn" data-wow-delay="0.7s">
                         <span class="alt-font font-weight-500 text-extra-medium text-extra-dark-gray letter-spacing-minus-1-half">
-                            دوست داشتی ؟
-                            <a class="font-weight-600 text-fast-blue text-decoration-line-bottom" href="/team">همه رو ببین.</a>
+                            <a class="font-weight-600 text-fast-blue text-decoration-line-bottom" href="/team">مابقی تیم میز گرد</a>
                         </span>
             </div>
         </div>

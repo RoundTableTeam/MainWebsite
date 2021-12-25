@@ -13,7 +13,7 @@
 <main>
     <Navbar/>
 
-    <Title page="خدمات ما" description="بیا باز زندگی کنیم با هم"/>
+    <Title page="خدمات ما" description="با خدمات ما چند پله بالا تر باشید"/>
     <About/>
     <Possibilities/>
     <Services/>

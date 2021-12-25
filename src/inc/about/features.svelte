@@ -1,9 +1,9 @@
 <script>
-    let title = "تایتل"
-    let title2 = "تایتل2"
+    let title = "چرا میز گرد؟"
+    let title2 = "مزیت های میز گرد"
 
-    import {features} from "../../data/features";
-    let _features = features.slice(0,4)
+    import {feature_box} from "../../data/feature-section";
+    let _features = feature_box.slice(0,4)
 
 </script>
 
@@ -20,10 +20,10 @@
                 <div class="col-12 col-lg-6 col-md-9 margin-30px-bottom xs-margin-15px-bottom">
                 <div class="feature-box h-100 feature-box-left-icon border-radius-5px bg-white box-shadow-small feature-box-dark-hover overflow-hidden padding-4-rem-all">
                     <div class="feature-box-icon">
-                        <i class="{feature.icon} icon-medium text-fast-blue"></i>
+                        <i class="fa {feature.icon} icon-medium text-fast-blue"></i>
                     </div>
                     <div class="feature-box-content last-paragraph-no-margin">
-                        <span class="alt-font font-weight-500 margin-10px-bottom d-block text-extra-dark-gray">{feature.title}</span>
+                        <span class="alt-font font-weight-500 margin-10px-bottom d-block text-extra-dark-gray">{feature.txt}</span>
                         <p>{feature.desc}</p>
                     </div>
                     <div class="feature-box-overlay bg-gradient-fast-blue-purple"></div>

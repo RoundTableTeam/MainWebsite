@@ -12,7 +12,17 @@
 <main>
     <Navbar/>
 
-    <Title page="ارتباط با ما" description="جایی هست که میشه بود متن اینجا !"/>
+<section class="no-padding one-third-screen position-relative">
+            <div class="opacity-full bg-gradient-fast-blue-purple z-index-0"></div>
+            <div class="container h-100">
+                <div class="row align-items-end justify-content-center h-100">
+                    <div class="col-12 col-xl-6 col-lg-7 col-md-10 position-relative page-title-large text-center">
+                        <h1 class="text-white alt-font font-weight-500 letter-spacing-minus-1 margin-5-rem-bottom sm-margin-3-rem-bottom">با ما درتماس باشید</h1>
+                        <span class="w-1px h-80px d-inline-block bg-white margin-5-rem-bottom sm-margin-3-rem-bottom sm-h-50px"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
     <Office/>
     <Image/>

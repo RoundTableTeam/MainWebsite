@@ -1,5 +1,5 @@
 
-(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35730/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
+(function(l, r) { if (!l || l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (self.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(self.document);
 var app = (function () {
     'use strict';
 
@@ -1928,15 +1928,14 @@ var app = (function () {
     	let div3;
     	let div2;
     	let div1;
-    	let h1;
-    	let t2;
     	let a0;
-    	let t3;
+    	let t1;
     	let span0;
-    	let t4;
+    	let t2;
     	let div4;
     	let a1;
     	let span1;
+    	let i;
 
     	const block = {
     		c: function create() {
@@ -1946,44 +1945,43 @@ var app = (function () {
     			div3 = element("div");
     			div2 = element("div");
     			div1 = element("div");
-    			h1 = element("h1");
-    			h1.textContent = "ما میز گردیم داداش";
-    			t2 = space();
     			a0 = element("a");
-    			t3 = text("همین حالا شروع کن");
+    			t1 = text("همین حالا شروع کن");
     			span0 = element("span");
-    			t4 = space();
+    			t2 = space();
     			div4 = element("div");
     			a1 = element("a");
     			span1 = element("span");
-    			span1.textContent = "اسکرول";
+    			i = element("i");
     			attr_dev(div0, "class", "position-absolute cover-background top-0px left-0px w-100 h-100");
     			attr_dev(div0, "data-parallax-background-ratio", "0.5");
-    			set_style(div0, "background-image", "url('images/home-design-agency-bg-img-01.png')");
-    			add_location(div0, file$C, 1, 4, 145);
-    			attr_dev(h1, "class", "alt-font font-weight-600 title-large text-extra-dark-gray letter-spacing-minus-4px margin-4-half-rem-bottom sm-letter-spacing-minus-1-half xs-w-65");
-    			add_location(h1, file$C, 5, 16, 563);
-    			attr_dev(span0, "class", "bg-white");
-    			add_location(span0, file$C, 6, 161, 907);
+    			set_style(div0, "background-image", "url('images/loho-head1.png')");
+    			add_location(div0, file$C, 1, 4, 128);
+    			attr_dev(span0, "class", "bg-dark-slate-blue");
+    			add_location(span0, file$C, 5, 151, 663);
     			attr_dev(a0, "href", "/service");
-    			attr_dev(a0, "class", "btn btn-extra-large btn-expand-ltr text-extra-dark-gray btn-rounded align-self-start font-weight-600");
-    			add_location(a0, file$C, 6, 16, 762);
+    			attr_dev(a0, "class", "btn btn-extra-large btn-expand-ltr text-white btn-rounded align-self-start font-weight-600");
+    			add_location(a0, file$C, 5, 16, 528);
     			attr_dev(div1, "class", "col-12 col-lg-5 col-md-6 col-sm-7 full-screen md-h-650px sm-h-500px d-flex flex-column justify-content-center padding-8-rem-tb");
-    			add_location(div1, file$C, 4, 12, 406);
+    			add_location(div1, file$C, 4, 12, 371);
     			attr_dev(div2, "class", "row");
-    			add_location(div2, file$C, 3, 8, 376);
+    			add_location(div2, file$C, 3, 8, 341);
     			attr_dev(div3, "class", "container");
-    			add_location(div3, file$C, 2, 4, 344);
-    			attr_dev(span1, "class", "scroll-down-text alt-font font-weight-600 text-extra-dark-gray letter-spacing-minus-1-half margin-5px-bottom");
-    			add_location(span1, file$C, 12, 12, 1158);
+    			add_location(div3, file$C, 2, 4, 309);
+    			set_style(i, "color", "white");
+    			set_style(i, "font-size", "1rem");
+    			attr_dev(i, "class", "fa fa-mouse");
+    			add_location(i, file$C, 11, 152, 1064);
+    			attr_dev(span1, "class", "scroll-down-text alt-font font-weight-600 text-extra-dark-gray letter-spacing-minus-1-half margin-5px-bottom margin-5px-right");
+    			add_location(span1, file$C, 11, 12, 924);
     			attr_dev(a1, "href", "#about");
-    			attr_dev(a1, "class", "section-link d-block w-2px h-35px bg-white mx-auto right-0px left-0px position-absolute");
-    			add_location(a1, file$C, 11, 8, 1032);
+    			attr_dev(a1, "class", "section-link d-block w-5px h-35px bg-white mx-auto right-0px left-0px position-absolute");
+    			add_location(a1, file$C, 10, 8, 798);
     			attr_dev(div4, "class", "scroll-down-bottom");
-    			add_location(div4, file$C, 10, 4, 991);
+    			add_location(div4, file$C, 9, 4, 757);
     			attr_dev(section, "class", "parallax p-0");
     			attr_dev(section, "data-parallax-background-ratio", "0.3");
-    			set_style(section, "background-image", "url('images/home-design-agency-bg-img-01.jpg')");
+    			set_style(section, "background-image", "url('images/back-head-1.png')");
     			add_location(section, file$C, 0, 0, 0);
     		},
     		l: function claim(nodes) {
@@ -1996,15 +1994,14 @@ var app = (function () {
     			append_dev(section, div3);
     			append_dev(div3, div2);
     			append_dev(div2, div1);
-    			append_dev(div1, h1);
-    			append_dev(div1, t2);
     			append_dev(div1, a0);
-    			append_dev(a0, t3);
+    			append_dev(a0, t1);
     			append_dev(a0, span0);
-    			append_dev(section, t4);
+    			append_dev(section, t2);
     			append_dev(section, div4);
     			append_dev(div4, a1);
     			append_dev(a1, span1);
+    			append_dev(span1, i);
     		},
     		p: noop,
     		i: noop,
@@ -2051,81 +2048,85 @@ var app = (function () {
     	}
     }
 
-    let clients = [
-            {
-                name: "کوک",
-                img: "images/clients-logo-06.png",
-                link: "https://aerbir.ir"
-            },
-         {
-             name: "کوک",
-             img: "images/clients-logo-06.png",
-             link: "https://aerbir.ir"
-         },
-         {
-             name: "کوک",
-             img: "images/clients-logo-06.png",
-             link: "https://aerbir.ir"
-         },
-         {
-             name: "کوک",
-             img: "images/clients-logo-06.png",
-             link: "https://aerbir.ir"
-         },
-         {
-             name: "کوک",
-             img: "images/clients-logo-06.png",
-             link: "https://aerbir.ir"
-         },
-         {
-             name: "کوک",
-             img: "images/clients-logo-06.png",
-             link: "https://aerbir.ir"
-         },
-            ];
+    let feature_box = [
+        {
+            "txt":"طراحی بی نظیر",
+            "icon":"fa-dice-d20",
+            "color":"white",
+            "desc":"با طراحی تیم ما تکرار نشدنی باشید"
+        },
+        {
+            "txt":"متعهد به زمان",
+            "icon":"fa-calendar-check",
+            "color":"white",
+            "desc":"در سریع ترین زمان ممکن کار خود را کامل کنید"
+        },
+        {
+            "txt":"متعهد به کار",
+            "icon":"fa-award",
+            "color":"white",
+            "desc":"با کیفیت ترین در زینه کاری خود باشید"
+        },
+        {
+            "txt":"ایده های منحصر به فرد",
+            "icon":"fa-lightbulb",
+            "color":"#ffffff",
+            "desc":"با ایده های ما در کار خود بی نظیر باشید"
+        },
+    ];
 
     /* src/inc/home/partners.svelte generated by Svelte v3.44.0 */
     const file$B = "src/inc/home/partners.svelte";
 
     function get_each_context$b(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[1] = list[i];
+    	child_ctx[0] = list[i];
     	return child_ctx;
     }
 
-    // (9:12) {#each _clients as client}
+    // (8:18) {#each feature_box as feat }
     function create_each_block$b(ctx) {
-    	let div;
-    	let a;
-    	let img;
-    	let img_src_value;
-    	let t;
+    	let div1;
+    	let div0;
+    	let span;
+    	let t0_value = /*feat*/ ctx[0].txt + "";
+    	let t0;
+    	let t1;
+    	let i;
+    	let t2;
 
     	const block = {
     		c: function create() {
-    			div = element("div");
-    			a = element("a");
-    			img = element("img");
-    			t = space();
-    			attr_dev(img, "alt", /*client*/ ctx[1].name);
-    			if (!src_url_equal(img.src, img_src_value = /*client*/ ctx[1].img)) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$B, 10, 60, 546);
-    			attr_dev(a, "href", /*client*/ ctx[1].link);
-    			attr_dev(a, "class", "client-logo");
-    			add_location(a, file$B, 10, 16, 502);
-    			attr_dev(div, "title", /*client*/ ctx[1].name);
-    			attr_dev(div, "class", "col text-center md-margin-50px-bottom wow animate__fadeIn");
-    			add_location(div, file$B, 9, 12, 392);
+    			div1 = element("div");
+    			div0 = element("div");
+    			span = element("span");
+    			t0 = text(t0_value);
+    			t1 = space();
+    			i = element("i");
+    			t2 = space();
+    			attr_dev(span, "class", "alt-font font-weight-500 text-uppercase");
+    			add_location(span, file$B, 10, 24, 574);
+    			set_style(i, "color", /*feat*/ ctx[0].color);
+    			attr_dev(i, "class", "fa " + /*feat*/ ctx[0].icon + " align-middle icon-large text-extra-dark-gray margin-15px-left");
+    			add_location(i, file$B, 11, 24, 672);
+    			attr_dev(div0, "class", "d-flex justify-content-center align-items-center h-100");
+    			add_location(div0, file$B, 9, 20, 481);
+    			attr_dev(div1, "class", "col md-margin-40px-bottom wow animate__fadeIn");
+    			attr_dev(div1, "data-wow-delay", "0.2s");
+    			add_location(div1, file$B, 8, 16, 379);
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div, anchor);
-    			append_dev(div, a);
-    			append_dev(a, img);
-    			append_dev(div, t);
+    			insert_dev(target, div1, anchor);
+    			append_dev(div1, div0);
+    			append_dev(div0, span);
+    			append_dev(span, t0);
+    			append_dev(div0, t1);
+    			append_dev(div0, i);
+    			append_dev(div1, t2);
     		},
     		p: noop,
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div);
+    			if (detaching) detach_dev(div1);
     		}
     	};
 
@@ -2133,7 +2134,7 @@ var app = (function () {
     		block,
     		id: create_each_block$b.name,
     		type: "each",
-    		source: "(9:12) {#each _clients as client}",
+    		source: "(8:18) {#each feature_box as feat }",
     		ctx
     	});
 
@@ -2142,9 +2143,8 @@ var app = (function () {
 
     function create_fragment$B(ctx) {
     	let section;
-    	let div1;
-    	let div0;
-    	let each_value = /*_clients*/ ctx[0];
+    	let div;
+    	let each_value = feature_box;
     	validate_each_argument(each_value);
     	let each_blocks = [];
 
@@ -2155,35 +2155,33 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			section = element("section");
-    			div1 = element("div");
-    			div0 = element("div");
+    			div = element("div");
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(div0, "class", "row align-items-center row-cols-1 row-cols-lg-4 row-cols-sm-2 client-logo-style-02");
-    			add_location(div0, file$B, 7, 8, 244);
-    			attr_dev(div1, "class", "container");
-    			add_location(div1, file$B, 6, 4, 212);
-    			attr_dev(section, "class", "padding-100px-tb bg-gradient-white-light-gray md-padding-75px-tb sm-padding-50px-tb");
-    			add_location(section, file$B, 5, 0, 106);
+    			attr_dev(div, "class", "row row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center ");
+    			add_location(div, file$B, 6, 14, 234);
+    			set_style(section, "background-color", "#2d3436");
+    			set_style(section, "background-image", "linear-gradient(315deg, #2d3436 0%, #000000 74%)");
+    			attr_dev(section, "class", "feature-section ");
+    			add_location(section, file$B, 3, 0, 80);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, section, anchor);
-    			append_dev(section, div1);
-    			append_dev(div1, div0);
+    			append_dev(section, div);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
-    				each_blocks[i].m(div0, null);
+    				each_blocks[i].m(div, null);
     			}
     		},
     		p: function update(ctx, [dirty]) {
-    			if (dirty & /*_clients*/ 1) {
-    				each_value = /*_clients*/ ctx[0];
+    			if (dirty & /*feature_box*/ 0) {
+    				each_value = feature_box;
     				validate_each_argument(each_value);
     				let i;
 
@@ -2195,7 +2193,7 @@ var app = (function () {
     					} else {
     						each_blocks[i] = create_each_block$b(child_ctx);
     						each_blocks[i].c();
-    						each_blocks[i].m(div0, null);
+    						each_blocks[i].m(div, null);
     					}
     				}
 
@@ -2228,24 +2226,14 @@ var app = (function () {
     function instance$B($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Partners', slots, []);
-    	let _clients = clients.slice(0, 4);
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<Partners> was created with unknown prop '${key}'`);
     	});
 
-    	$$self.$capture_state = () => ({ clients, _clients });
-
-    	$$self.$inject_state = $$props => {
-    		if ('_clients' in $$props) $$invalidate(0, _clients = $$props._clients);
-    	};
-
-    	if ($$props && "$$inject" in $$props) {
-    		$$self.$inject_state($$props.$$inject);
-    	}
-
-    	return [_clients];
+    	$$self.$capture_state = () => ({ feature_box });
+    	return [];
     }
 
     class Partners extends SvelteComponentDev {
@@ -2275,10 +2263,10 @@ var app = (function () {
     	let script2_src_value;
     	let t0;
     	let section;
-    	let div12;
+    	let div3;
     	let div2;
     	let div0;
-    	let h4;
+    	let h40;
     	let span0;
     	let t2;
     	let span1;
@@ -2289,34 +2277,9 @@ var app = (function () {
     	let b2;
     	let t8;
     	let div1;
-    	let span2;
+    	let h41;
     	let t10;
-    	let p;
-    	let t12;
-    	let div11;
-    	let div4;
-    	let div3;
-    	let i0;
-    	let t13;
-    	let span3;
-    	let t15;
-    	let div6;
-    	let div5;
-    	let i1;
-    	let t16;
-    	let span4;
-    	let t18;
-    	let div8;
-    	let div7;
-    	let i2;
-    	let t19;
-    	let span5;
-    	let t21;
-    	let div10;
-    	let div9;
-    	let i3;
-    	let t22;
-    	let span6;
+    	let h3;
 
     	const block = {
     		c: function create() {
@@ -2325,58 +2288,29 @@ var app = (function () {
     			script2 = element("script");
     			t0 = space();
     			section = element("section");
-    			div12 = element("div");
+    			div3 = element("div");
     			div2 = element("div");
     			div0 = element("div");
-    			h4 = element("h4");
+    			h40 = element("h4");
     			span0 = element("span");
-    			span0.textContent = "خلاق، جادار آگاه";
+    			span0.textContent = "میز گرد مناسب برای";
     			t2 = space();
     			span1 = element("span");
     			b0 = element("b");
-    			b0.textContent = "استراتژی تبلیغات";
+    			b0.textContent = "تاپ ترین ها";
     			t4 = space();
     			b1 = element("b");
-    			b1.textContent = "همه چی خوبه";
+    			b1.textContent = "خاص ترین ها";
     			t6 = space();
     			b2 = element("b");
-    			b2.textContent = "لوگوی زیبا :)";
+    			b2.textContent = "و خود شما";
     			t8 = space();
     			div1 = element("div");
-    			span2 = element("span");
-    			span2.textContent = "درباره میز گرد";
+    			h41 = element("h4");
+    			h41.textContent = "میز گرد کیست؟";
     			t10 = space();
-    			p = element("p");
-    			p.textContent = "متنی در اینجا بنگارید.";
-    			t12 = space();
-    			div11 = element("div");
-    			div4 = element("div");
-    			div3 = element("div");
-    			i0 = element("i");
-    			t13 = space();
-    			span3 = element("span");
-    			span3.textContent = "کار ۱";
-    			t15 = space();
-    			div6 = element("div");
-    			div5 = element("div");
-    			i1 = element("i");
-    			t16 = space();
-    			span4 = element("span");
-    			span4.textContent = "کار ۲";
-    			t18 = space();
-    			div8 = element("div");
-    			div7 = element("div");
-    			i2 = element("i");
-    			t19 = space();
-    			span5 = element("span");
-    			span5.textContent = "کار ۳";
-    			t21 = space();
-    			div10 = element("div");
-    			div9 = element("div");
-    			i3 = element("i");
-    			t22 = space();
-    			span6 = element("span");
-    			span6.textContent = "میشود آیکون را انتخاب نمود۴";
+    			h3 = element("h3");
+    			h3.textContent = "ما نماینده شما در فضای مجازی هستیم";
     			if (!src_url_equal(script0.src, script0_src_value = "../../js/jquery.min.js")) attr_dev(script0, "src", script0_src_value);
     			add_location(script0, file$A, 1, 4, 18);
     			if (!src_url_equal(script1.src, script1_src_value = "../../js/theme-vendors.min.js")) attr_dev(script1, "src", script1_src_value);
@@ -2384,69 +2318,38 @@ var app = (function () {
     			if (!src_url_equal(script2.src, script2_src_value = "../../js/main.js")) attr_dev(script2, "src", script2_src_value);
     			add_location(script2, file$A, 3, 4, 129);
     			attr_dev(span0, "class", "d-block p-0");
-    			add_location(span0, file$A, 10, 20, 569);
+    			add_location(span0, file$A, 10, 20, 596);
     			attr_dev(b0, "class", "text-gradient-fast-blue-purple border-width-2px border-bottom border-gradient-fast-blue-purple letter-spacing-minus-1px is-visible");
-    			add_location(b0, file$A, 12, 32, 717);
+    			add_location(b0, file$A, 12, 32, 787);
     			attr_dev(b1, "class", "text-gradient-fast-blue-purple border-width-2px border-bottom border-gradient-fast-blue-purple letter-spacing-minus-1px");
-    			add_location(b1, file$A, 13, 32, 912);
+    			add_location(b1, file$A, 13, 32, 977);
     			attr_dev(b2, "class", "text-gradient-fast-blue-purple border-width-2px border-bottom border-gradient-fast-blue-purple letter-spacing-minus-1px");
-    			add_location(b2, file$A, 14, 32, 1091);
+    			add_location(b2, file$A, 14, 32, 1156);
+    			set_style(span1, "text-align", "right");
+    			set_style(span1, "direction", "rtl");
     			attr_dev(span1, "class", "cd-words-wrapper d-initial p-0");
-    			add_location(span1, file$A, 11, 20, 639);
-    			attr_dev(h4, "class", "alt-font cd-headline slide font-weight-600 text-extra-dark-gray letter-spacing-minus-1px");
-    			add_location(h4, file$A, 9, 16, 447);
+    			add_location(span1, file$A, 11, 20, 668);
+    			set_style(h40, "text-align", "right");
+    			attr_dev(h40, "class", "alt-font cd-headline slide font-weight-600 text-extra-dark-gray letter-spacing-minus-1px");
+    			add_location(h40, file$A, 9, 16, 447);
     			attr_dev(div0, "class", "col-12 col-xl-4 col-lg-5 col-md-6 xs-margin-30px-bottom text-center text-md-start wow animate__fadeIn");
     			attr_dev(div0, "data-wow-delay", "0.2s");
     			add_location(div0, file$A, 8, 12, 293);
-    			attr_dev(span2, "class", "alt-font font-weight-600 text-extra-dark-gray text-uppercase d-block margin-15px-bottom");
-    			add_location(span2, file$A, 19, 16, 1501);
-    			attr_dev(p, "class", "text-extra-medium w-95 line-height-36px md-w-100");
-    			add_location(p, file$A, 20, 16, 1641);
+    			set_style(h41, "text-align", "right");
+    			attr_dev(h41, "class", "alt-font font-weight-600 text-extra-dark-gray text-uppercase d-block margin-15px-bottom");
+    			add_location(h41, file$A, 19, 16, 1606);
+    			set_style(h3, "text-align", "right");
+    			attr_dev(h3, "class", "text-large w-95 line-height-36px md-w-100");
+    			add_location(h3, file$A, 20, 16, 1768);
+    			set_style(div1, "text-align", "right");
+    			set_style(div1, "direction", "rtl");
     			attr_dev(div1, "class", "col-12 col-xl-5 offset-xl-2 col-md-6 offset-lg-1 text-center text-md-start last-paragraph-no-margin wow animate__fadeIn");
     			attr_dev(div1, "data-wow-delay", "0.4s");
-    			add_location(div1, file$A, 18, 12, 1329);
+    			add_location(div1, file$A, 18, 12, 1390);
     			attr_dev(div2, "class", "row");
     			add_location(div2, file$A, 7, 8, 263);
-    			attr_dev(i0, "class", "feather icon-feather-shopping-bag align-middle icon-small text-extra-dark-gray margin-15px-right");
-    			add_location(i0, file$A, 27, 20, 2130);
-    			attr_dev(span3, "class", "alt-font font-weight-500 text-uppercase");
-    			add_location(span3, file$A, 28, 20, 2263);
-    			attr_dev(div3, "class", "d-flex justify-content-center align-items-center h-100");
-    			add_location(div3, file$A, 26, 16, 2041);
-    			attr_dev(div4, "class", "col md-margin-40px-bottom wow animate__fadeIn");
-    			attr_dev(div4, "data-wow-delay", "0.2s");
-    			add_location(div4, file$A, 25, 12, 1943);
-    			attr_dev(i1, "class", "feather icon-feather-shopping-bag align-middle icon-small text-extra-dark-gray margin-15px-right");
-    			add_location(i1, file$A, 35, 20, 2657);
-    			attr_dev(span4, "class", "alt-font font-weight-500 text-uppercase");
-    			add_location(span4, file$A, 36, 20, 2790);
-    			attr_dev(div5, "class", "d-flex justify-content-center align-items-center h-100");
-    			add_location(div5, file$A, 34, 16, 2568);
-    			attr_dev(div6, "class", "col md-margin-40px-bottom wow animate__fadeIn");
-    			attr_dev(div6, "data-wow-delay", "0.3s");
-    			add_location(div6, file$A, 33, 12, 2470);
-    			attr_dev(i2, "class", "feather icon-feather-shopping-bag align-middle icon-small text-extra-dark-gray margin-15px-right");
-    			add_location(i2, file$A, 43, 20, 3184);
-    			attr_dev(span5, "class", "alt-font font-weight-500 text-uppercase");
-    			add_location(span5, file$A, 44, 20, 3318);
-    			attr_dev(div7, "class", "d-flex justify-content-center align-items-center h-100");
-    			add_location(div7, file$A, 42, 16, 3095);
-    			attr_dev(div8, "class", "col xs-margin-40px-bottom wow animate__fadeIn");
-    			attr_dev(div8, "data-wow-delay", "0.4s");
-    			add_location(div8, file$A, 41, 12, 2997);
-    			attr_dev(i3, "class", "feather icon-feather-shopping-bag align-middle icon-small text-extra-dark-gray margin-15px-right");
-    			add_location(i3, file$A, 51, 20, 3690);
-    			attr_dev(span6, "class", "alt-font font-weight-500 text-uppercase");
-    			add_location(span6, file$A, 52, 20, 3823);
-    			attr_dev(div9, "class", "d-flex justify-content-center align-items-center h-100");
-    			add_location(div9, file$A, 50, 16, 3601);
-    			attr_dev(div10, "class", "col wow animate__fadeIn");
-    			attr_dev(div10, "data-wow-delay", "0.5s");
-    			add_location(div10, file$A, 49, 12, 3525);
-    			attr_dev(div11, "class", "row row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center margin-9-rem-top md-margin-6-rem-top");
-    			add_location(div11, file$A, 23, 8, 1770);
-    			attr_dev(div12, "class", "container");
-    			add_location(div12, file$A, 6, 4, 231);
+    			attr_dev(div3, "class", "container");
+    			add_location(div3, file$A, 6, 4, 231);
     			attr_dev(section, "class", "big-section");
     			attr_dev(section, "id", "about");
     			add_location(section, file$A, 5, 0, 186);
@@ -2460,13 +2363,13 @@ var app = (function () {
     			append_dev(document.head, script2);
     			insert_dev(target, t0, anchor);
     			insert_dev(target, section, anchor);
-    			append_dev(section, div12);
-    			append_dev(div12, div2);
+    			append_dev(section, div3);
+    			append_dev(div3, div2);
     			append_dev(div2, div0);
-    			append_dev(div0, h4);
-    			append_dev(h4, span0);
-    			append_dev(h4, t2);
-    			append_dev(h4, span1);
+    			append_dev(div0, h40);
+    			append_dev(h40, span0);
+    			append_dev(h40, t2);
+    			append_dev(h40, span1);
     			append_dev(span1, b0);
     			append_dev(span1, t4);
     			append_dev(span1, b1);
@@ -2474,34 +2377,9 @@ var app = (function () {
     			append_dev(span1, b2);
     			append_dev(div2, t8);
     			append_dev(div2, div1);
-    			append_dev(div1, span2);
+    			append_dev(div1, h41);
     			append_dev(div1, t10);
-    			append_dev(div1, p);
-    			append_dev(div12, t12);
-    			append_dev(div12, div11);
-    			append_dev(div11, div4);
-    			append_dev(div4, div3);
-    			append_dev(div3, i0);
-    			append_dev(div3, t13);
-    			append_dev(div3, span3);
-    			append_dev(div11, t15);
-    			append_dev(div11, div6);
-    			append_dev(div6, div5);
-    			append_dev(div5, i1);
-    			append_dev(div5, t16);
-    			append_dev(div5, span4);
-    			append_dev(div11, t18);
-    			append_dev(div11, div8);
-    			append_dev(div8, div7);
-    			append_dev(div7, i2);
-    			append_dev(div7, t19);
-    			append_dev(div7, span5);
-    			append_dev(div11, t21);
-    			append_dev(div11, div10);
-    			append_dev(div10, div9);
-    			append_dev(div9, i3);
-    			append_dev(div9, t22);
-    			append_dev(div9, span6);
+    			append_dev(div1, h3);
     		},
     		p: noop,
     		i: noop,
@@ -2575,7 +2453,7 @@ var app = (function () {
     	let t4;
     	let h50;
     	let t5;
-    	let br0;
+    	let br;
     	let t6;
     	let t7;
     	let span1;
@@ -2601,71 +2479,62 @@ var app = (function () {
     	let span2;
     	let t17;
     	let h51;
-    	let t18;
-    	let br1;
     	let t19;
-    	let t20;
     	let span3;
     	let i1;
-    	let t21;
+    	let t20;
     	let div10;
     	let div9;
     	let p1;
-    	let t23;
+    	let t22;
     	let a1;
-    	let t25;
+    	let t24;
     	let div17;
     	let figure2;
     	let img2;
     	let img2_src_value;
-    	let t26;
+    	let t25;
     	let div12;
-    	let t27;
+    	let t26;
     	let div13;
-    	let t28;
+    	let t27;
     	let figcaption2;
     	let div14;
     	let span4;
-    	let t30;
+    	let t29;
     	let h52;
     	let t31;
-    	let br2;
-    	let t32;
-    	let t33;
     	let span5;
     	let i2;
-    	let t34;
+    	let t32;
     	let div16;
     	let div15;
     	let p2;
-    	let t36;
+    	let t34;
     	let a2;
-    	let t38;
+    	let t36;
     	let div23;
     	let figure3;
     	let img3;
     	let img3_src_value;
-    	let t39;
+    	let t37;
     	let div18;
-    	let t40;
+    	let t38;
     	let div19;
-    	let t41;
+    	let t39;
     	let figcaption3;
     	let div20;
     	let span6;
-    	let t43;
+    	let t41;
     	let h53;
-    	let t44;
-    	let br3;
-    	let t45;
-    	let t46;
+    	let t43;
     	let span7;
     	let i3;
-    	let t47;
+    	let t44;
     	let div22;
     	let div21;
     	let p3;
-    	let t49;
+    	let t46;
     	let a3;
 
     	const block = {
@@ -2687,9 +2556,9 @@ var app = (function () {
     			span0.textContent = "01";
     			t4 = space();
     			h50 = element("h5");
-    			t5 = text("کار ");
-    			br0 = element("br");
-    			t6 = text("جالب");
+    			t5 = text("طراحی ");
+    			br = element("br");
+    			t6 = text("وبسایت");
     			t7 = space();
     			span1 = element("span");
     			i0 = element("i");
@@ -2697,7 +2566,7 @@ var app = (function () {
     			div4 = element("div");
     			div3 = element("div");
     			p0 = element("p");
-    			p0.textContent = "متنی در اینجا بنگارید";
+    			p0.textContent = "چه نوع وبسایتی توی ذهنته ؟ میزگرد همون رو برات طراحی میکنه";
     			t10 = space();
     			a0 = element("a");
     			a0.textContent = "با ما تماس بگیرید";
@@ -2713,217 +2582,216 @@ var app = (function () {
     			figcaption1 = element("figcaption");
     			div8 = element("div");
     			span2 = element("span");
-    			span2.textContent = "01";
+    			span2.textContent = "02";
     			t17 = space();
     			h51 = element("h5");
-    			t18 = text("کار ");
-    			br1 = element("br");
-    			t19 = text("جالب");
-    			t20 = space();
+    			h51.textContent = "سئو";
+    			t19 = space();
     			span3 = element("span");
     			i1 = element("i");
-    			t21 = space();
+    			t20 = space();
     			div10 = element("div");
     			div9 = element("div");
     			p1 = element("p");
-    			p1.textContent = "متنی در اینجا بنگارید";
-    			t23 = space();
+    			p1.textContent = "برای دیده شدن درجهان به تیمی با بالاترین سطح استاندارد نیاز دارید،  میز گرد راه شما برای دیده شدن در سطح جهانی";
+    			t22 = space();
     			a1 = element("a");
     			a1.textContent = "با ما تماس بگیرید";
-    			t25 = space();
+    			t24 = space();
     			div17 = element("div");
     			figure2 = element("figure");
     			img2 = element("img");
-    			t26 = space();
+    			t25 = space();
     			div12 = element("div");
-    			t27 = space();
+    			t26 = space();
     			div13 = element("div");
-    			t28 = space();
+    			t27 = space();
     			figcaption2 = element("figcaption");
     			div14 = element("div");
     			span4 = element("span");
-    			span4.textContent = "01";
-    			t30 = space();
+    			span4.textContent = "03";
+    			t29 = space();
     			h52 = element("h5");
-    			t31 = text("کار ");
-    			br2 = element("br");
-    			t32 = text("جالب");
-    			t33 = space();
+    			h52.textContent = "یوتوب";
+    			t31 = space();
     			span5 = element("span");
     			i2 = element("i");
-    			t34 = space();
+    			t32 = space();
     			div16 = element("div");
     			div15 = element("div");
     			p2 = element("p");
-    			p2.textContent = "متنی در اینجا بنگارید";
-    			t36 = space();
+    			p2.textContent = "یوتیوب یکی از تخصصهای ماست  ،  اینحاست که حرفه ای ها وارد میشوند.";
+    			t34 = space();
     			a2 = element("a");
     			a2.textContent = "با ما تماس بگیرید";
-    			t38 = space();
+    			t36 = space();
     			div23 = element("div");
     			figure3 = element("figure");
     			img3 = element("img");
-    			t39 = space();
+    			t37 = space();
     			div18 = element("div");
-    			t40 = space();
+    			t38 = space();
     			div19 = element("div");
-    			t41 = space();
+    			t39 = space();
     			figcaption3 = element("figcaption");
     			div20 = element("div");
     			span6 = element("span");
-    			span6.textContent = "01";
-    			t43 = space();
+    			span6.textContent = "04";
+    			t41 = space();
     			h53 = element("h5");
-    			t44 = text("کار ");
-    			br3 = element("br");
-    			t45 = text("جالب");
-    			t46 = space();
+    			h53.textContent = "اینستاگرام";
+    			t43 = space();
     			span7 = element("span");
     			i3 = element("i");
-    			t47 = space();
+    			t44 = space();
     			div22 = element("div");
     			div21 = element("div");
     			p3 = element("p");
-    			p3.textContent = "متنی در اینجا بنگارید";
-    			t49 = space();
+    			p3.textContent = "با میزگرد در اینستاگرام  کسب و کار ایجاد کن ، رشدش بده و بزرگ و بزرگترش کن.";
+    			t46 = space();
     			a3 = element("a");
     			a3.textContent = "با ما تماس بگیرید";
     			attr_dev(img0, "class", "w-100");
-    			if (!src_url_equal(img0.src, img0_src_value = "images/home-web-agency-img-01.jpg")) attr_dev(img0, "src", img0_src_value);
+    			if (!src_url_equal(img0.src, img0_src_value = "images/web-ability.png")) attr_dev(img0, "src", img0_src_value);
     			attr_dev(img0, "alt", "");
     			add_location(img0, file$z, 5, 20, 409);
     			attr_dev(div0, "class", "opacity-light bg-extra-dark-gray");
-    			add_location(div0, file$z, 6, 20, 498);
+    			add_location(div0, file$z, 6, 20, 487);
     			attr_dev(div1, "class", "interactive-banners-overlay bg-transparent-gradient-fast-blue-purple");
-    			add_location(div1, file$z, 7, 20, 571);
+    			add_location(div1, file$z, 7, 20, 560);
     			attr_dev(span0, "class", "text-extra-medium text-white opacity-6 d-block margin-10px-bottom position-relative z-index-1");
-    			add_location(span0, file$z, 10, 28, 932);
-    			add_location(br0, file$z, 11, 108, 1158);
+    			add_location(span0, file$z, 10, 28, 921);
+    			add_location(br, file$z, 11, 110, 1149);
     			attr_dev(h50, "class", "alt-font font-weight-600 text-white position-relative z-index-1");
-    			add_location(h50, file$z, 11, 28, 1078);
+    			add_location(h50, file$z, 11, 28, 1067);
     			attr_dev(i0, "class", "line-icon-Add-Window text-white icon-large");
-    			add_location(i0, file$z, 12, 73, 1247);
+    			add_location(i0, file$z, 12, 73, 1240);
     			attr_dev(span1, "class", "interactive-banners-hover-icon");
-    			add_location(span1, file$z, 12, 28, 1202);
+    			add_location(span1, file$z, 12, 28, 1195);
     			attr_dev(div2, "class", "interactive-banners-content align-items-start padding-4-half-rem-lr padding-5-rem-tb last-paragraph-no-margin xl-padding-2-rem-all lg-padding-4-rem-all xs-padding-5-rem-all");
-    			add_location(div2, file$z, 9, 24, 717);
-    			attr_dev(p0, "class", "interactive-banners-action-content w-80 text-white opacity-6 lg-w-70");
-    			add_location(p0, file$z, 16, 32, 1639);
+    			add_location(div2, file$z, 9, 24, 706);
+    			set_style(p0, "direction", "rtl");
+    			set_style(p0, "text-align", "right");
+    			attr_dev(p0, "class", "interactive-banners-action-content w-100 text-white opacity-8 lg-w-70");
+    			add_location(p0, file$z, 16, 32, 1632);
     			attr_dev(a0, "href", "our-services.html");
     			attr_dev(a0, "class", "btn btn-link btn-extra-large text-white margin-20px-top");
-    			add_location(a0, file$z, 17, 32, 1777);
+    			add_location(a0, file$z, 17, 32, 1851);
     			attr_dev(div3, "class", "padding-4-half-rem-lr padding-5-rem-tb last-paragraph-no-margin lg-padding-4-rem-all xl-padding-3-rem-all xs-padding-5-rem-all");
-    			add_location(div3, file$z, 15, 28, 1466);
+    			add_location(div3, file$z, 15, 28, 1459);
     			attr_dev(div4, "class", "interactive-banners-hover-action align-items-end d-flex");
-    			add_location(div4, file$z, 14, 24, 1368);
-    			add_location(figcaption0, file$z, 8, 20, 680);
+    			add_location(div4, file$z, 14, 24, 1361);
+    			add_location(figcaption0, file$z, 8, 20, 669);
     			attr_dev(figure0, "class", "m-0");
     			add_location(figure0, file$z, 4, 16, 368);
     			attr_dev(div5, "class", "col-12 col-xl-3 col-md-6 col-sm-8 interactive-banners-style-09 lg-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn");
     			attr_dev(div5, "data-wow-delay", "0.2s");
     			add_location(div5, file$z, 3, 12, 189);
     			attr_dev(img1, "class", "w-100");
-    			if (!src_url_equal(img1.src, img1_src_value = "images/home-web-agency-img-01.jpg")) attr_dev(img1, "src", img1_src_value);
+    			if (!src_url_equal(img1.src, img1_src_value = "images/seo-ability.png")) attr_dev(img1, "src", img1_src_value);
     			attr_dev(img1, "alt", "");
-    			add_location(img1, file$z, 25, 20, 2268);
+    			add_location(img1, file$z, 25, 20, 2342);
     			attr_dev(div6, "class", "opacity-light bg-extra-dark-gray");
-    			add_location(div6, file$z, 26, 20, 2357);
+    			add_location(div6, file$z, 26, 20, 2420);
     			attr_dev(div7, "class", "interactive-banners-overlay bg-transparent-gradient-fast-blue-purple");
-    			add_location(div7, file$z, 27, 20, 2430);
+    			add_location(div7, file$z, 27, 20, 2493);
     			attr_dev(span2, "class", "text-extra-medium text-white opacity-6 d-block margin-10px-bottom position-relative z-index-1");
-    			add_location(span2, file$z, 30, 28, 2791);
-    			add_location(br1, file$z, 31, 108, 3017);
+    			add_location(span2, file$z, 30, 28, 2854);
     			attr_dev(h51, "class", "alt-font font-weight-600 text-white position-relative z-index-1");
-    			add_location(h51, file$z, 31, 28, 2937);
-    			attr_dev(i1, "class", "line-icon-Add-Window text-white icon-large");
-    			add_location(i1, file$z, 32, 73, 3106);
+    			add_location(h51, file$z, 31, 28, 3000);
+    			attr_dev(i1, "class", "line-icon-Search-onCloud text-white icon-large");
+    			add_location(i1, file$z, 32, 73, 3158);
     			attr_dev(span3, "class", "interactive-banners-hover-icon");
-    			add_location(span3, file$z, 32, 28, 3061);
+    			add_location(span3, file$z, 32, 28, 3113);
     			attr_dev(div8, "class", "interactive-banners-content align-items-start padding-4-half-rem-lr padding-5-rem-tb last-paragraph-no-margin xl-padding-2-rem-all lg-padding-4-rem-all xs-padding-5-rem-all");
-    			add_location(div8, file$z, 29, 24, 2576);
-    			attr_dev(p1, "class", "interactive-banners-action-content w-80 text-white opacity-6 lg-w-70");
-    			add_location(p1, file$z, 36, 32, 3498);
+    			add_location(div8, file$z, 29, 24, 2639);
+    			set_style(p1, "direction", "rtl");
+    			set_style(p1, "text-align", "right");
+    			attr_dev(p1, "class", "interactive-banners-action-content w-100 text-white opacity-8 lg-w-70");
+    			add_location(p1, file$z, 36, 32, 3554);
     			attr_dev(a1, "href", "our-services.html");
     			attr_dev(a1, "class", "btn btn-link btn-extra-large text-white margin-20px-top");
-    			add_location(a1, file$z, 37, 32, 3636);
+    			add_location(a1, file$z, 37, 32, 3824);
     			attr_dev(div9, "class", "padding-4-half-rem-lr padding-5-rem-tb last-paragraph-no-margin lg-padding-4-rem-all xl-padding-3-rem-all xs-padding-5-rem-all");
-    			add_location(div9, file$z, 35, 28, 3325);
+    			add_location(div9, file$z, 35, 28, 3381);
     			attr_dev(div10, "class", "interactive-banners-hover-action align-items-end d-flex");
-    			add_location(div10, file$z, 34, 24, 3227);
-    			add_location(figcaption1, file$z, 28, 20, 2539);
+    			add_location(div10, file$z, 34, 24, 3283);
+    			add_location(figcaption1, file$z, 28, 20, 2602);
     			attr_dev(figure1, "class", "m-0");
-    			add_location(figure1, file$z, 24, 16, 2227);
+    			add_location(figure1, file$z, 24, 16, 2301);
     			attr_dev(div11, "class", "col-12 col-xl-3 col-md-6 col-sm-8 interactive-banners-style-09 lg-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn");
     			attr_dev(div11, "data-wow-delay", "0.2s");
-    			add_location(div11, file$z, 23, 12, 2048);
+    			add_location(div11, file$z, 23, 12, 2122);
     			attr_dev(img2, "class", "w-100");
-    			if (!src_url_equal(img2.src, img2_src_value = "images/home-web-agency-img-01.jpg")) attr_dev(img2, "src", img2_src_value);
+    			if (!src_url_equal(img2.src, img2_src_value = "images/youtube-ability.png")) attr_dev(img2, "src", img2_src_value);
     			attr_dev(img2, "alt", "");
-    			add_location(img2, file$z, 45, 20, 4127);
+    			add_location(img2, file$z, 45, 20, 4315);
     			attr_dev(div12, "class", "opacity-light bg-extra-dark-gray");
-    			add_location(div12, file$z, 46, 20, 4216);
+    			add_location(div12, file$z, 46, 20, 4397);
     			attr_dev(div13, "class", "interactive-banners-overlay bg-transparent-gradient-fast-blue-purple");
-    			add_location(div13, file$z, 47, 20, 4289);
+    			add_location(div13, file$z, 47, 20, 4470);
     			attr_dev(span4, "class", "text-extra-medium text-white opacity-6 d-block margin-10px-bottom position-relative z-index-1");
-    			add_location(span4, file$z, 50, 28, 4650);
-    			add_location(br2, file$z, 51, 108, 4876);
+    			add_location(span4, file$z, 50, 28, 4831);
     			attr_dev(h52, "class", "alt-font font-weight-600 text-white position-relative z-index-1");
-    			add_location(h52, file$z, 51, 28, 4796);
-    			attr_dev(i2, "class", "line-icon-Add-Window text-white icon-large");
-    			add_location(i2, file$z, 52, 73, 4965);
+    			add_location(h52, file$z, 51, 28, 4977);
+    			attr_dev(i2, "class", "fab fa-youtube text-white icon-large");
+    			add_location(i2, file$z, 52, 73, 5137);
     			attr_dev(span5, "class", "interactive-banners-hover-icon");
-    			add_location(span5, file$z, 52, 28, 4920);
+    			add_location(span5, file$z, 52, 28, 5092);
     			attr_dev(div14, "class", "interactive-banners-content align-items-start padding-4-half-rem-lr padding-5-rem-tb last-paragraph-no-margin xl-padding-2-rem-all lg-padding-4-rem-all xs-padding-5-rem-all");
-    			add_location(div14, file$z, 49, 24, 4435);
-    			attr_dev(p2, "class", "interactive-banners-action-content w-80 text-white opacity-6 lg-w-70");
-    			add_location(p2, file$z, 56, 32, 5357);
+    			add_location(div14, file$z, 49, 24, 4616);
+    			set_style(p2, "direction", "rtl");
+    			set_style(p2, "text-align", "right");
+    			attr_dev(p2, "class", "interactive-banners-action-content w-100 text-white opacity-8 lg-w-70");
+    			add_location(p2, file$z, 56, 32, 5523);
     			attr_dev(a2, "href", "our-services.html");
     			attr_dev(a2, "class", "btn btn-link btn-extra-large text-white margin-20px-top");
-    			add_location(a2, file$z, 57, 32, 5495);
+    			add_location(a2, file$z, 57, 32, 5748);
     			attr_dev(div15, "class", "padding-4-half-rem-lr padding-5-rem-tb last-paragraph-no-margin lg-padding-4-rem-all xl-padding-3-rem-all xs-padding-5-rem-all");
-    			add_location(div15, file$z, 55, 28, 5184);
+    			add_location(div15, file$z, 55, 28, 5350);
     			attr_dev(div16, "class", "interactive-banners-hover-action align-items-end d-flex");
-    			add_location(div16, file$z, 54, 24, 5086);
-    			add_location(figcaption2, file$z, 48, 20, 4398);
+    			add_location(div16, file$z, 54, 24, 5252);
+    			add_location(figcaption2, file$z, 48, 20, 4579);
     			attr_dev(figure2, "class", "m-0");
-    			add_location(figure2, file$z, 44, 16, 4086);
+    			add_location(figure2, file$z, 44, 16, 4274);
     			attr_dev(div17, "class", "col-12 col-xl-3 col-md-6 col-sm-8 interactive-banners-style-09 lg-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn");
     			attr_dev(div17, "data-wow-delay", "0.2s");
-    			add_location(div17, file$z, 43, 12, 3907);
+    			add_location(div17, file$z, 43, 12, 4095);
     			attr_dev(img3, "class", "w-100");
-    			if (!src_url_equal(img3.src, img3_src_value = "images/home-web-agency-img-01.jpg")) attr_dev(img3, "src", img3_src_value);
+    			if (!src_url_equal(img3.src, img3_src_value = "images/insta-ability.png")) attr_dev(img3, "src", img3_src_value);
     			attr_dev(img3, "alt", "");
-    			add_location(img3, file$z, 65, 20, 5986);
+    			add_location(img3, file$z, 65, 20, 6239);
     			attr_dev(div18, "class", "opacity-light bg-extra-dark-gray");
-    			add_location(div18, file$z, 66, 20, 6075);
+    			add_location(div18, file$z, 66, 20, 6319);
     			attr_dev(div19, "class", "interactive-banners-overlay bg-transparent-gradient-fast-blue-purple");
-    			add_location(div19, file$z, 67, 20, 6148);
+    			add_location(div19, file$z, 67, 20, 6392);
     			attr_dev(span6, "class", "text-extra-medium text-white opacity-6 d-block margin-10px-bottom position-relative z-index-1");
-    			add_location(span6, file$z, 70, 28, 6509);
-    			add_location(br3, file$z, 71, 108, 6735);
+    			add_location(span6, file$z, 70, 28, 6753);
     			attr_dev(h53, "class", "alt-font font-weight-600 text-white position-relative z-index-1");
-    			add_location(h53, file$z, 71, 28, 6655);
-    			attr_dev(i3, "class", "line-icon-Add-Window text-white icon-large");
-    			add_location(i3, file$z, 72, 73, 6824);
+    			add_location(h53, file$z, 71, 28, 6899);
+    			attr_dev(i3, "class", "fab fa-instagram text-white icon-large");
+    			add_location(i3, file$z, 72, 73, 7064);
     			attr_dev(span7, "class", "interactive-banners-hover-icon");
-    			add_location(span7, file$z, 72, 28, 6779);
+    			add_location(span7, file$z, 72, 28, 7019);
     			attr_dev(div20, "class", "interactive-banners-content align-items-start padding-4-half-rem-lr padding-5-rem-tb last-paragraph-no-margin xl-padding-2-rem-all lg-padding-4-rem-all xs-padding-5-rem-all");
-    			add_location(div20, file$z, 69, 24, 6294);
-    			attr_dev(p3, "class", "interactive-banners-action-content w-80 text-white opacity-6 lg-w-70");
-    			add_location(p3, file$z, 76, 32, 7216);
+    			add_location(div20, file$z, 69, 24, 6538);
+    			set_style(p3, "text-align", "right");
+    			set_style(p3, "direction", "rtl");
+    			attr_dev(p3, "class", "interactive-banners-action-content w-100 text-white opacity-8 lg-w-70");
+    			add_location(p3, file$z, 76, 32, 7452);
     			attr_dev(a3, "href", "our-services.html");
     			attr_dev(a3, "class", "btn btn-link btn-extra-large text-white margin-20px-top");
-    			add_location(a3, file$z, 77, 32, 7354);
+    			add_location(a3, file$z, 77, 32, 7688);
     			attr_dev(div21, "class", "padding-4-half-rem-lr padding-5-rem-tb last-paragraph-no-margin lg-padding-4-rem-all xl-padding-3-rem-all xs-padding-5-rem-all");
-    			add_location(div21, file$z, 75, 28, 7043);
+    			add_location(div21, file$z, 75, 28, 7279);
     			attr_dev(div22, "class", "interactive-banners-hover-action align-items-end d-flex");
-    			add_location(div22, file$z, 74, 24, 6945);
-    			add_location(figcaption3, file$z, 68, 20, 6257);
+    			add_location(div22, file$z, 74, 24, 7181);
+    			add_location(figcaption3, file$z, 68, 20, 6501);
     			attr_dev(figure3, "class", "m-0");
-    			add_location(figure3, file$z, 64, 16, 5945);
+    			add_location(figure3, file$z, 64, 16, 6198);
     			attr_dev(div23, "class", "col-12 col-xl-3 col-md-6 col-sm-8 interactive-banners-style-09 lg-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn");
     			attr_dev(div23, "data-wow-delay", "0.2s");
-    			add_location(div23, file$z, 63, 12, 5766);
+    			add_location(div23, file$z, 63, 12, 6019);
     			attr_dev(div24, "class", "row justify-content-center");
     			add_location(div24, file$z, 2, 8, 136);
     			attr_dev(div25, "class", "container-fluid padding-30px-lr xs-padding-15px-lr");
@@ -2952,7 +2820,7 @@ var app = (function () {
     			append_dev(div2, t4);
     			append_dev(div2, h50);
     			append_dev(h50, t5);
-    			append_dev(h50, br0);
+    			append_dev(h50, br);
     			append_dev(h50, t6);
     			append_dev(div2, t7);
     			append_dev(div2, span1);
@@ -2977,69 +2845,60 @@ var app = (function () {
     			append_dev(div8, span2);
     			append_dev(div8, t17);
     			append_dev(div8, h51);
-    			append_dev(h51, t18);
-    			append_dev(h51, br1);
-    			append_dev(h51, t19);
-    			append_dev(div8, t20);
+    			append_dev(div8, t19);
     			append_dev(div8, span3);
     			append_dev(span3, i1);
-    			append_dev(figcaption1, t21);
+    			append_dev(figcaption1, t20);
     			append_dev(figcaption1, div10);
     			append_dev(div10, div9);
     			append_dev(div9, p1);
-    			append_dev(div9, t23);
+    			append_dev(div9, t22);
     			append_dev(div9, a1);
-    			append_dev(div24, t25);
+    			append_dev(div24, t24);
     			append_dev(div24, div17);
     			append_dev(div17, figure2);
     			append_dev(figure2, img2);
-    			append_dev(figure2, t26);
+    			append_dev(figure2, t25);
     			append_dev(figure2, div12);
-    			append_dev(figure2, t27);
+    			append_dev(figure2, t26);
     			append_dev(figure2, div13);
-    			append_dev(figure2, t28);
+    			append_dev(figure2, t27);
     			append_dev(figure2, figcaption2);
     			append_dev(figcaption2, div14);
     			append_dev(div14, span4);
-    			append_dev(div14, t30);
+    			append_dev(div14, t29);
     			append_dev(div14, h52);
-    			append_dev(h52, t31);
-    			append_dev(h52, br2);
-    			append_dev(h52, t32);
-    			append_dev(div14, t33);
+    			append_dev(div14, t31);
     			append_dev(div14, span5);
     			append_dev(span5, i2);
-    			append_dev(figcaption2, t34);
+    			append_dev(figcaption2, t32);
     			append_dev(figcaption2, div16);
     			append_dev(div16, div15);
     			append_dev(div15, p2);
-    			append_dev(div15, t36);
+    			append_dev(div15, t34);
     			append_dev(div15, a2);
-    			append_dev(div24, t38);
+    			append_dev(div24, t36);
     			append_dev(div24, div23);
     			append_dev(div23, figure3);
     			append_dev(figure3, img3);
-    			append_dev(figure3, t39);
+    			append_dev(figure3, t37);
     			append_dev(figure3, div18);
-    			append_dev(figure3, t40);
+    			append_dev(figure3, t38);
     			append_dev(figure3, div19);
-    			append_dev(figure3, t41);
+    			append_dev(figure3, t39);
     			append_dev(figure3, figcaption3);
     			append_dev(figcaption3, div20);
     			append_dev(div20, span6);
-    			append_dev(div20, t43);
+    			append_dev(div20, t41);
     			append_dev(div20, h53);
-    			append_dev(h53, t44);
-    			append_dev(h53, br3);
-    			append_dev(h53, t45);
-    			append_dev(div20, t46);
+    			append_dev(div20, t43);
     			append_dev(div20, span7);
     			append_dev(span7, i3);
-    			append_dev(figcaption3, t47);
+    			append_dev(figcaption3, t44);
     			append_dev(figcaption3, div22);
     			append_dev(div22, div21);
     			append_dev(div21, p3);
-    			append_dev(div21, t49);
+    			append_dev(div21, t46);
     			append_dev(div21, a3);
     		},
     		p: noop,
@@ -3097,55 +2956,61 @@ var app = (function () {
     	let div25;
     	let div22;
     	let div0;
-    	let span0;
+    	let h5;
     	let t1;
-    	let h4;
-    	let t3;
     	let div21;
     	let div5;
     	let div4;
     	let div2;
     	let div1;
-    	let t5;
+    	let t3;
+    	let span0;
+    	let t4;
+    	let div3;
     	let span1;
     	let t6;
-    	let div3;
-    	let span2;
-    	let t8;
     	let p0;
-    	let t10;
+    	let br0;
+    	let t7;
     	let div10;
     	let div9;
     	let div7;
     	let div6;
-    	let t12;
-    	let span3;
-    	let t13;
+    	let t9;
+    	let span2;
+    	let t10;
     	let div8;
-    	let span4;
-    	let t15;
+    	let span3;
+    	let t12;
     	let p1;
-    	let t17;
+    	let br1;
+    	let t13;
     	let div15;
     	let div14;
     	let div12;
     	let div11;
-    	let t19;
+    	let t15;
+    	let span4;
+    	let t16;
     	let div13;
     	let span5;
-    	let t21;
+    	let t18;
     	let p2;
-    	let t23;
+    	let br2;
+    	let t19;
     	let div20;
     	let div19;
     	let div17;
     	let div16;
-    	let t25;
-    	let div18;
+    	let t21;
     	let span6;
-    	let t27;
+    	let t22;
+    	let div18;
+    	let span7;
+    	let t24;
     	let p3;
-    	let t29;
+    	let br3;
+    	let t25;
     	let div24;
     	let div23;
     	let img;
@@ -3158,155 +3023,164 @@ var app = (function () {
     			div25 = element("div");
     			div22 = element("div");
     			div0 = element("div");
-    			span0 = element("span");
-    			span0.textContent = "رویه کار";
+    			h5 = element("h5");
+    			h5.textContent = "نقشه های راه";
     			t1 = space();
-    			h4 = element("h4");
-    			h4.textContent = "چگونه انجام میدهیم";
-    			t3 = space();
     			div21 = element("div");
     			div5 = element("div");
     			div4 = element("div");
     			div2 = element("div");
     			div1 = element("div");
-    			div1.textContent = "1";
-    			t5 = space();
-    			span1 = element("span");
-    			t6 = space();
+    			div1.textContent = "۱";
+    			t3 = space();
+    			span0 = element("span");
+    			t4 = space();
     			div3 = element("div");
-    			span2 = element("span");
-    			span2.textContent = "کار";
-    			t8 = space();
+    			span1 = element("span");
+    			span1.textContent = "شناخت و درک کسب و کار شما";
+    			t6 = space();
     			p0 = element("p");
-    			p0.textContent = "فلان بیسار ... .شسیسی شس.ی شسی شسی";
-    			t10 = space();
+    			br0 = element("br");
+    			t7 = space();
     			div10 = element("div");
     			div9 = element("div");
     			div7 = element("div");
     			div6 = element("div");
-    			div6.textContent = "2";
-    			t12 = space();
-    			span3 = element("span");
-    			t13 = space();
+    			div6.textContent = "۲";
+    			t9 = space();
+    			span2 = element("span");
+    			t10 = space();
     			div8 = element("div");
-    			span4 = element("span");
-    			span4.textContent = "کار";
-    			t15 = space();
+    			span3 = element("span");
+    			span3.textContent = "مشاوره مناسب کسب و کار";
+    			t12 = space();
     			p1 = element("p");
-    			p1.textContent = "فلان بیسار ... .شسیسی شس.ی شسی شسی";
-    			t17 = space();
+    			br1 = element("br");
+    			t13 = space();
     			div15 = element("div");
     			div14 = element("div");
     			div12 = element("div");
     			div11 = element("div");
-    			div11.textContent = "3";
-    			t19 = space();
+    			div11.textContent = "۳";
+    			t15 = space();
+    			span4 = element("span");
+    			t16 = space();
     			div13 = element("div");
     			span5 = element("span");
-    			span5.textContent = "کار";
-    			t21 = space();
+    			span5.textContent = "طراحی نقشه راه مخصوص شما";
+    			t18 = space();
     			p2 = element("p");
-    			p2.textContent = "فلان بیسار ... .شسیسی شس.ی شسی شسی";
-    			t23 = space();
+    			br2 = element("br");
+    			t19 = space();
     			div20 = element("div");
     			div19 = element("div");
     			div17 = element("div");
     			div16 = element("div");
-    			div16.textContent = "4";
-    			t25 = space();
-    			div18 = element("div");
+    			div16.textContent = "۴";
+    			t21 = space();
     			span6 = element("span");
-    			span6.textContent = "کار";
-    			t27 = space();
+    			t22 = space();
+    			div18 = element("div");
+    			span7 = element("span");
+    			span7.textContent = "رشد شما در فضای مجازی";
+    			t24 = space();
     			p3 = element("p");
-    			p3.textContent = "فلان بیسار ... .شسیسی شس.ی شسی شسی";
-    			t29 = space();
+    			br3 = element("br");
+    			t25 = space();
     			div24 = element("div");
     			div23 = element("div");
     			img = element("img");
-    			attr_dev(span0, "class", "alt-font font-weight-600 text-gradient-fast-blue-purple text-uppercase d-inline-block margin-15px-bottom");
-    			add_location(span0, file$y, 5, 20, 329);
-    			attr_dev(h4, "class", "alt-font font-weight-600 text-extra-dark-gray d-block letter-spacing-minus-1px");
-    			add_location(h4, file$y, 6, 20, 484);
+    			set_style(h5, "text-align", "right");
+    			set_style(h5, "direction", "rtl");
+    			attr_dev(h5, "class", "alt-font font-weight-600 text-gradient-fast-blue-purple text-uppercase d-inline-block margin-15px-bottom");
+    			add_location(h5, file$y, 5, 20, 330);
     			attr_dev(div0, "class", "col-12 p-0 margin-5-rem-bottom wow animate__fadeIn");
     			add_location(div0, file$y, 4, 16, 244);
     			attr_dev(div1, "class", "process-step-icon text-center border-all border-color-fast-blue border-width-2px bg-fast-blue alt-font font-weight-500");
-    			add_location(div1, file$y, 13, 32, 978);
-    			attr_dev(span1, "class", "process-step-item-box-bfr bg-medium-gray");
-    			add_location(span1, file$y, 14, 32, 1150);
+    			add_location(div1, file$y, 11, 32, 833);
+    			attr_dev(span0, "class", "process-step-item-box-bfr bg-medium-gray");
+    			add_location(span0, file$y, 12, 32, 1005);
     			attr_dev(div2, "class", "process-step-icon-wrap");
-    			add_location(div2, file$y, 12, 28, 909);
-    			attr_dev(span2, "class", "alt-font d-block font-weight-500 text-extra-dark-gray margin-5px-bottom");
-    			add_location(span2, file$y, 17, 32, 1363);
+    			add_location(div2, file$y, 10, 28, 764);
+    			attr_dev(span1, "class", "alt-font d-block font-weight-500 text-extra-dark-gray margin-5px-bottom");
+    			add_location(span1, file$y, 15, 32, 1218);
+    			add_location(br0, file$y, 16, 65, 1404);
     			attr_dev(p0, "class", "w-60 md-w-80 xs-w-100");
-    			add_location(p0, file$y, 18, 32, 1493);
+    			add_location(p0, file$y, 16, 32, 1371);
     			attr_dev(div3, "class", "process-content last-paragraph-no-margin");
-    			add_location(div3, file$y, 16, 28, 1276);
+    			add_location(div3, file$y, 14, 28, 1131);
     			attr_dev(div4, "class", "process-step-item");
-    			add_location(div4, file$y, 11, 24, 849);
+    			add_location(div4, file$y, 9, 24, 704);
     			attr_dev(div5, "class", "col-12 p-0 process-step-style-02 wow animate__fadeIn");
-    			attr_dev(div5, "data-wow-delay", "0.1s");
-    			add_location(div5, file$y, 10, 20, 736);
+    			attr_dev(div5, "data-wow-delay", "0.2s");
+    			add_location(div5, file$y, 8, 20, 591);
     			attr_dev(div6, "class", "process-step-icon text-center border-all border-color-fast-blue border-width-2px bg-fast-blue alt-font font-weight-500");
-    			add_location(div6, file$y, 27, 32, 2015);
-    			attr_dev(span3, "class", "process-step-item-box-bfr bg-medium-gray");
-    			add_location(span3, file$y, 28, 32, 2187);
+    			add_location(div6, file$y, 23, 28, 1753);
+    			attr_dev(span2, "class", "process-step-item-box-bfr bg-medium-gray");
+    			add_location(span2, file$y, 24, 28, 1921);
     			attr_dev(div7, "class", "process-step-icon-wrap");
-    			add_location(div7, file$y, 26, 28, 1946);
-    			attr_dev(span4, "class", "alt-font d-block font-weight-500 text-extra-dark-gray margin-5px-bottom");
-    			add_location(span4, file$y, 31, 32, 2400);
+    			add_location(div7, file$y, 22, 24, 1688);
+    			attr_dev(span3, "class", "alt-font d-block font-weight-500 text-extra-dark-gray margin-5px-bottom");
+    			add_location(span3, file$y, 27, 28, 2122);
+    			add_location(br1, file$y, 28, 61, 2301);
     			attr_dev(p1, "class", "w-60 md-w-80 xs-w-100");
-    			add_location(p1, file$y, 32, 32, 2530);
+    			add_location(p1, file$y, 28, 28, 2268);
     			attr_dev(div8, "class", "process-content last-paragraph-no-margin");
-    			add_location(div8, file$y, 30, 28, 2313);
+    			add_location(div8, file$y, 26, 24, 2039);
     			attr_dev(div9, "class", "process-step-item");
-    			add_location(div9, file$y, 25, 24, 1886);
+    			add_location(div9, file$y, 21, 20, 1632);
     			attr_dev(div10, "class", "col-12 p-0 process-step-style-02 wow animate__fadeIn");
     			attr_dev(div10, "data-wow-delay", "0.2s");
-    			add_location(div10, file$y, 24, 20, 1773);
+    			add_location(div10, file$y, 20, 17, 1523);
     			attr_dev(div11, "class", "process-step-icon text-center border-all border-color-fast-blue border-width-2px bg-fast-blue alt-font font-weight-500");
-    			add_location(div11, file$y, 41, 32, 3051);
+    			add_location(div11, file$y, 35, 28, 2641);
+    			attr_dev(span4, "class", "process-step-item-box-bfr bg-medium-gray");
+    			add_location(span4, file$y, 36, 28, 2809);
     			attr_dev(div12, "class", "process-step-icon-wrap");
-    			add_location(div12, file$y, 40, 28, 2982);
+    			add_location(div12, file$y, 34, 24, 2576);
     			attr_dev(span5, "class", "alt-font d-block font-weight-500 text-extra-dark-gray margin-5px-bottom");
-    			add_location(span5, file$y, 44, 32, 3341);
+    			add_location(span5, file$y, 39, 28, 3010);
+    			add_location(br2, file$y, 40, 61, 3192);
     			attr_dev(p2, "class", "w-60 md-w-80 xs-w-100");
-    			add_location(p2, file$y, 45, 32, 3471);
+    			add_location(p2, file$y, 40, 28, 3159);
     			attr_dev(div13, "class", "process-content last-paragraph-no-margin");
-    			add_location(div13, file$y, 43, 28, 3254);
+    			add_location(div13, file$y, 38, 24, 2927);
     			attr_dev(div14, "class", "process-step-item");
-    			add_location(div14, file$y, 39, 24, 2922);
+    			add_location(div14, file$y, 33, 20, 2520);
     			attr_dev(div15, "class", "col-12 p-0 process-step-style-02 wow animate__fadeIn");
-    			attr_dev(div15, "data-wow-delay", "0.3s");
-    			add_location(div15, file$y, 38, 20, 2809);
+    			attr_dev(div15, "data-wow-delay", "0.2s");
+    			add_location(div15, file$y, 32, 20, 2411);
     			attr_dev(div16, "class", "process-step-icon text-center border-all border-color-fast-blue border-width-2px bg-fast-blue alt-font font-weight-500");
-    			add_location(div16, file$y, 53, 32, 3944);
+    			add_location(div16, file$y, 47, 28, 3532);
+    			attr_dev(span6, "class", "process-step-item-box-bfr bg-medium-gray");
+    			add_location(span6, file$y, 48, 28, 3700);
     			attr_dev(div17, "class", "process-step-icon-wrap");
-    			add_location(div17, file$y, 52, 28, 3875);
-    			attr_dev(span6, "class", "alt-font d-block font-weight-500 text-extra-dark-gray margin-5px-bottom");
-    			add_location(span6, file$y, 56, 32, 4234);
+    			add_location(div17, file$y, 46, 24, 3467);
+    			attr_dev(span7, "class", "alt-font d-block font-weight-500 text-extra-dark-gray margin-5px-bottom");
+    			add_location(span7, file$y, 51, 28, 3901);
+    			add_location(br3, file$y, 52, 61, 4080);
     			attr_dev(p3, "class", "w-60 md-w-80 xs-w-100");
-    			add_location(p3, file$y, 57, 32, 4364);
+    			add_location(p3, file$y, 52, 28, 4047);
     			attr_dev(div18, "class", "process-content last-paragraph-no-margin");
-    			add_location(div18, file$y, 55, 28, 4147);
+    			add_location(div18, file$y, 50, 24, 3818);
     			attr_dev(div19, "class", "process-step-item");
-    			add_location(div19, file$y, 51, 24, 3815);
+    			add_location(div19, file$y, 45, 20, 3411);
     			attr_dev(div20, "class", "col-12 p-0 process-step-style-02 wow animate__fadeIn");
-    			attr_dev(div20, "data-wow-delay", "0.3s");
-    			add_location(div20, file$y, 50, 20, 3702);
+    			attr_dev(div20, "data-wow-delay", "0.2s");
+    			add_location(div20, file$y, 44, 20, 3302);
     			attr_dev(div21, "class", "col-12 p-0");
-    			add_location(div21, file$y, 8, 16, 638);
+    			add_location(div21, file$y, 7, 16, 546);
     			attr_dev(div22, "class", "col-12 col-xl-5 col-lg-6 col-md-9 md-margin-3-rem-bottom");
     			add_location(div22, file$y, 3, 12, 157);
     			if (!src_url_equal(img.src, img_src_value = "images/home-web-agency-img-05.jpg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "class", "overflow-hidden");
     			attr_dev(img, "alt", "");
-    			add_location(img, file$y, 65, 20, 4758);
+    			add_location(img, file$y, 63, 20, 4402);
     			attr_dev(div23, "class", "outside-box-right position-relative");
-    			add_location(div23, file$y, 64, 16, 4688);
+    			add_location(div23, file$y, 62, 16, 4332);
     			attr_dev(div24, "class", "col-12 col-lg-6 offset-xl-1 wow animate__fadeInRight");
     			attr_dev(div24, "data-wow-delay", "0.5s");
-    			add_location(div24, file$y, 63, 12, 4583);
+    			add_location(div24, file$y, 61, 12, 4227);
     			attr_dev(div25, "class", "row align-items-center justify-content-center");
     			add_location(div25, file$y, 2, 8, 85);
     			attr_dev(div26, "class", "container");
@@ -3323,55 +3197,61 @@ var app = (function () {
     			append_dev(div26, div25);
     			append_dev(div25, div22);
     			append_dev(div22, div0);
-    			append_dev(div0, span0);
-    			append_dev(div0, t1);
-    			append_dev(div0, h4);
-    			append_dev(div22, t3);
+    			append_dev(div0, h5);
+    			append_dev(div22, t1);
     			append_dev(div22, div21);
     			append_dev(div21, div5);
     			append_dev(div5, div4);
     			append_dev(div4, div2);
     			append_dev(div2, div1);
-    			append_dev(div2, t5);
-    			append_dev(div2, span1);
-    			append_dev(div4, t6);
+    			append_dev(div2, t3);
+    			append_dev(div2, span0);
+    			append_dev(div4, t4);
     			append_dev(div4, div3);
-    			append_dev(div3, span2);
-    			append_dev(div3, t8);
+    			append_dev(div3, span1);
+    			append_dev(div3, t6);
     			append_dev(div3, p0);
-    			append_dev(div21, t10);
+    			append_dev(p0, br0);
+    			append_dev(div21, t7);
     			append_dev(div21, div10);
     			append_dev(div10, div9);
     			append_dev(div9, div7);
     			append_dev(div7, div6);
-    			append_dev(div7, t12);
-    			append_dev(div7, span3);
-    			append_dev(div9, t13);
+    			append_dev(div7, t9);
+    			append_dev(div7, span2);
+    			append_dev(div9, t10);
     			append_dev(div9, div8);
-    			append_dev(div8, span4);
-    			append_dev(div8, t15);
+    			append_dev(div8, span3);
+    			append_dev(div8, t12);
     			append_dev(div8, p1);
-    			append_dev(div21, t17);
+    			append_dev(p1, br1);
+    			append_dev(div21, t13);
     			append_dev(div21, div15);
     			append_dev(div15, div14);
     			append_dev(div14, div12);
     			append_dev(div12, div11);
-    			append_dev(div14, t19);
+    			append_dev(div12, t15);
+    			append_dev(div12, span4);
+    			append_dev(div14, t16);
     			append_dev(div14, div13);
     			append_dev(div13, span5);
-    			append_dev(div13, t21);
+    			append_dev(div13, t18);
     			append_dev(div13, p2);
-    			append_dev(div21, t23);
+    			append_dev(p2, br2);
+    			append_dev(div21, t19);
     			append_dev(div21, div20);
     			append_dev(div20, div19);
     			append_dev(div19, div17);
     			append_dev(div17, div16);
-    			append_dev(div19, t25);
+    			append_dev(div17, t21);
+    			append_dev(div17, span6);
+    			append_dev(div19, t22);
     			append_dev(div19, div18);
-    			append_dev(div18, span6);
-    			append_dev(div18, t27);
+    			append_dev(div18, span7);
+    			append_dev(div18, t24);
     			append_dev(div18, p3);
-    			append_dev(div25, t29);
+    			append_dev(p3, br3);
+    			append_dev(div25, t25);
     			append_dev(div25, div24);
     			append_dev(div24, div23);
     			append_dev(div23, img);
@@ -3425,51 +3305,34 @@ var app = (function () {
         {
             name: "کار۱",
             type: "نوع",
-            img: "images/portfolio-106.jpg",
+            img: "images/physic-sadat.jpeg",
             link: "https://instagram.com"
         },
         {
             name: "کار۱",
             type: "نوع",
-            img: "images/portfolio-106.jpg",
+            img: "images/Logo_No_BG_-_Transparent.PNG",
             link: "https://instagram.com"
         },
         {
             name: "کار۱",
             type: "نوع",
-            img: "images/portfolio-106.jpg",
+            img: "images/mizan.png",
             link: "https://instagram.com"
         },
         {
-            name: "کار۱",
-            type: "نوع",
-            img: "images/portfolio-106.jpg",
-            link: "https://instagram.com"
+            name: "علامه توییت",
+            type: "مدیریت شبکه های اجتماعی",
+            img: "images/alame.png",
+            link: "https://t.me/ATUTweet"
         },
         {
-            name: "کار۱",
-            type: "نوع",
-            img: "images/portfolio-106.jpg",
-            link: "https://instagram.com"
+            name: "نوشیروانی توییت",
+            type: "مدیریت شبکه های اجتماعی",
+            img: "images/nit.png",
+            link: "https://t.me/Nitweet"
         },
-        {
-            name: "کار۱",
-            type: "نوع",
-            img: "images/portfolio-106.jpg",
-            link: "https://instagram.com"
-        },
-        {
-            name: "کار۱",
-            type: "نوع",
-            img: "images/portfolio-106.jpg",
-            link: "https://instagram.com"
-        },
-        {
-            name: "کار۱",
-            type: "نوع",
-            img: "images/portfolio-106.jpg",
-            link: "https://instagram.com"
-        },
+
     ];
 
     /* src/inc/home/samples.svelte generated by Svelte v3.44.0 */
@@ -3481,7 +3344,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (17:24) {#each _samples as sample}
+    // (16:24) {#each _samples as sample}
     function create_each_block$a(ctx) {
     	let div6;
     	let a;
@@ -3519,24 +3382,24 @@ var app = (function () {
     			t4 = space();
     			if (!src_url_equal(img.src, img_src_value = /*sample*/ ctx[1].img)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*sample*/ ctx[1].name);
-    			add_location(img, file$x, 21, 44, 1186);
+    			add_location(img, file$x, 20, 44, 1122);
     			attr_dev(div0, "class", "alt-font text-extra-dark-gray font-weight-500 d-block");
-    			add_location(div0, file$x, 24, 52, 1478);
+    			add_location(div0, file$x, 23, 52, 1436);
     			attr_dev(div1, "class", "text-uppercase text-medium-gray text-small alt-font d-block");
-    			add_location(div1, file$x, 25, 52, 1617);
+    			add_location(div1, file$x, 24, 52, 1575);
     			attr_dev(div2, "class", "scale");
-    			add_location(div2, file$x, 23, 48, 1406);
-    			attr_dev(div3, "class", "portfolio-hover bg-white justify-content-center d-flex flex-column");
-    			add_location(div3, file$x, 22, 44, 1277);
-    			attr_dev(div4, "class", "portfolio-image bg-gradient-sky-blue-pink");
-    			add_location(div4, file$x, 20, 40, 1086);
+    			add_location(div2, file$x, 22, 48, 1364);
+    			attr_dev(div3, "class", "portfolio-hover opacity-6 bg-transparent-white justify-content-center d-flex flex-column");
+    			add_location(div3, file$x, 21, 44, 1213);
+    			attr_dev(div4, "class", "portfolio-image ");
+    			add_location(div4, file$x, 19, 40, 1047);
     			attr_dev(div5, "class", "portfolio-box");
-    			add_location(div5, file$x, 19, 36, 1018);
+    			add_location(div5, file$x, 18, 36, 979);
     			attr_dev(a, "href", /*sample*/ ctx[1].link);
-    			add_location(a, file$x, 18, 32, 957);
+    			add_location(a, file$x, 17, 32, 918);
     			attr_dev(div6, "class", "col text-center margin-30px-bottom sm-margin-15px-bottom wow animate__fadeIn");
     			attr_dev(div6, "data-wow-delay", "0.2s");
-    			add_location(div6, file$x, 17, 28, 812);
+    			add_location(div6, file$x, 16, 28, 773);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div6, anchor);
@@ -3564,7 +3427,7 @@ var app = (function () {
     		block,
     		id: create_each_block$a.name,
     		type: "each",
-    		source: "(17:24) {#each _samples as sample}",
+    		source: "(16:24) {#each _samples as sample}",
     		ctx
     	});
 
@@ -3578,8 +3441,6 @@ var app = (function () {
     	let div0;
     	let h4;
     	let t1;
-    	let p;
-    	let t3;
     	let div4;
     	let div3;
     	let each_value = /*_samples*/ ctx[0];
@@ -3599,9 +3460,6 @@ var app = (function () {
     			h4 = element("h4");
     			h4.textContent = "پروژه های اخیر";
     			t1 = space();
-    			p = element("p");
-    			p.textContent = "در اینجا اینجا";
-    			t3 = space();
     			div4 = element("div");
     			div3 = element("div");
 
@@ -3611,7 +3469,6 @@ var app = (function () {
 
     			attr_dev(h4, "class", "alt-font font-weight-600 text-extra-dark-gray letter-spacing-minus-1px margin-20px-bottom sm-margin-10px-bottom");
     			add_location(h4, file$x, 9, 16, 400);
-    			add_location(p, file$x, 10, 16, 560);
     			attr_dev(div0, "class", "col-12 col-xl-4 col-lg-5 col-md-7 col-sm-9 text-center last-paragraph-no-margin margin-5-rem-bottom md-margin-3-rem-bottom wow animate__fadeIn");
     			add_location(div0, file$x, 8, 12, 227);
     			attr_dev(div1, "class", "row justify-content-center");
@@ -3619,9 +3476,9 @@ var app = (function () {
     			attr_dev(div2, "class", "container");
     			add_location(div2, file$x, 6, 4, 142);
     			attr_dev(div3, "class", "row justify-content-center row-cols-2 ");
-    			add_location(div3, file$x, 15, 20, 680);
+    			add_location(div3, file$x, 14, 20, 641);
     			attr_dev(div4, "class", "container");
-    			add_location(div4, file$x, 14, 8, 636);
+    			add_location(div4, file$x, 13, 8, 597);
     			attr_dev(section, "class", "bg-light-blue");
     			add_location(section, file$x, 5, 0, 106);
     		},
@@ -3634,9 +3491,7 @@ var app = (function () {
     			append_dev(div2, div1);
     			append_dev(div1, div0);
     			append_dev(div0, h4);
-    			append_dev(div0, t1);
-    			append_dev(div0, p);
-    			append_dev(section, t3);
+    			append_dev(section, t1);
     			append_dev(section, div4);
     			append_dev(div4, div3);
 
@@ -3729,38 +3584,69 @@ var app = (function () {
         {
             name: "مهدی مهدی نژاد",
             role: "Founder",
-            img: "images/our-team-member-01.jpg",
-            about: "The beast ever never like even",
-            social: [{name: "instagram", logo: "fab fa-instagram", link: "https://aerbir.ir"},]
+            img: "images/Founder.png",
+            about: "",
+            social: [
+                {name: "instagram", logo: "fab fa-instagram", link: "https://www.instagram.com/mahdi._.mahdinezhad/"},
+                {name: "Telegram", logo: "fab fa-telegram", link: "https://t.me/The_RoundTable"},
+                {name: "LinkedIn", logo: "fab fa-linkedin", link: "https://www.linkedin.com/in/mahdi-mahdi-nezhad-865090226"},
+                {name: "github", logo: "fab fa-github", link: "https://github.com/MERLIN-8080"},
+
+            ]
         },
         {
-            name: "مهدی مهدی نژاد",
-            role: "Founder",
-            img: "images/our-team-member-01.jpg",
-            about: "The beast ever never like even",
-            social: [{name: "instagram", logo: "fab fa-instagram", link: "https://aerbir.ir"},]
+            name: "بردیا فاردار",
+            role: "Co-Founder",
+            img: "images/Co-Founder.png",
+            about: "",
+            social: [
+                {name: "instagram", logo: "fab fa-instagram", link: "https://www.instagram.com/brdi_fa/"},
+                {name: "LinkedIn", logo: "fab fa-linkedin", link: "https://www.linkedin.com/in/bardia-fardar-04a86518b"},
+
+            ]
         },
         {
-            name: "مهدی مهدی نژاد",
-            role: "Founder",
-            img: "images/our-team-member-01.jpg",
-            about: "The beast ever never like even",
-            social: [{name: "instagram", logo: "fab fa-instagram", link: "https://aerbir.ir"},]
+            name: "مهرشاد ده هفت",
+            role: "Co-Founder",
+            img: "images/Mehrshad.png",
+            about: "",
+            social: [{name: "instagram", logo: "fab fa-instagram", link: "https://www.instagram.com/mehrshad_d107/"},]
+        },
+         {
+            name: "آرین ابراهیمی",
+            role: "Software Engineer",
+            img: "images/Web Developer.png",
+            about: "",
+            social: [
+                {name: "Website", logo: "fa fa-globe", link: "https://aerbir.ir"},
+                {name: "github", logo: "fab fa-github", link: "https://github.com/ribrea"},
+                {name: "instagram", logo: "fab fa-instagram", link: "https://www.instagram.com/_ribrea/"},
+                {name: "linkedin", logo: "fab fa-linkedin", link: "https://www.linkedin.com/in/arian-ebrahimi-7a85781bb/"},
+                {name: "twitter", logo: "fab fa-twitter", link: "https://twitter.com/_ribrea"},
+            ]
         },
         {
-            name: "مهدی مهدی نژاد",
-            role: "Founder",
-            img: "images/our-team-member-01.jpg",
-            about: "The beast ever never like even",
-            social: [{name: "instagram", logo: "fab fa-instagram", link: "https://aerbir.ir"},]
+            name: "آرمین زارعی",
+            role: "photographer",
+            img: "images/photographer.png",
+            about: "",
+            social: []
         },
         {
-            name: "مهدی مهدی نژاد",
-            role: "Founder",
-            img: "images/our-team-member-01.jpg",
-            about: "The beast ever never like even",
-            social: [{name: "instagram", logo: "fab fa-instagram", link: "https://aerbir.ir"},]
-        }
+            name: "ارسلان مروی",
+            role: "Video Editor",
+            img: "images/Editor.png",
+            about: "",
+            social: []
+        },
+        {
+            name: "گروه ادمین ها",
+            role: "Instagram Admins",
+            img: "images/admin.png",
+            about: "",
+            social: []
+        },
+
     ];
 
     /* src/inc/home/team.svelte generated by Svelte v3.44.0 */
@@ -3772,14 +3658,14 @@ var app = (function () {
     	return child_ctx;
     }
 
-    function get_each_context_1$2(ctx, list, i) {
+    function get_each_context_1$1(ctx, list, i) {
     	const child_ctx = ctx.slice();
     	child_ctx[4] = list[i];
     	return child_ctx;
     }
 
     // (25:28) {#each team.social as social}
-    function create_each_block_1$2(ctx) {
+    function create_each_block_1$1(ctx) {
     	let a;
     	let i;
 
@@ -3809,7 +3695,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_each_block_1$2.name,
+    		id: create_each_block_1$1.name,
     		type: "each",
     		source: "(25:28) {#each team.social as social}",
     		ctx
@@ -3844,7 +3730,7 @@ var app = (function () {
     	let each_blocks = [];
 
     	for (let i = 0; i < each_value_1.length; i += 1) {
-    		each_blocks[i] = create_each_block_1$2(get_each_context_1$2(ctx, each_value_1, i));
+    		each_blocks[i] = create_each_block_1$1(get_each_context_1$1(ctx, each_value_1, i));
     	}
 
     	const block = {
@@ -3921,12 +3807,12 @@ var app = (function () {
     				let i;
 
     				for (i = 0; i < each_value_1.length; i += 1) {
-    					const child_ctx = get_each_context_1$2(ctx, each_value_1, i);
+    					const child_ctx = get_each_context_1$1(ctx, each_value_1, i);
 
     					if (each_blocks[i]) {
     						each_blocks[i].p(child_ctx, dirty);
     					} else {
-    						each_blocks[i] = create_each_block_1$2(child_ctx);
+    						each_blocks[i] = create_each_block_1$1(child_ctx);
     						each_blocks[i].c();
     						each_blocks[i].m(div2, null);
     					}
@@ -3970,7 +3856,6 @@ var app = (function () {
     	let div4;
     	let div3;
     	let span;
-    	let t5;
     	let a;
     	let each_value = /*_teams*/ ctx[0];
     	validate_each_argument(each_value);
@@ -4002,9 +3887,8 @@ var app = (function () {
     			div4 = element("div");
     			div3 = element("div");
     			span = element("span");
-    			t5 = text("دوست داشتی ؟\n                            ");
     			a = element("a");
-    			a.textContent = "همه رو ببین.";
+    			a.textContent = "مابقی تیم میز گرد";
     			attr_dev(h4, "class", "alt-font font-weight-600 text-extra-dark-gray letter-spacing-minus-1px margin-20px-bottom sm-margin-10px-bottom");
     			add_location(h4, file$w, 8, 16, 391);
     			add_location(p, file$w, 9, 16, 543);
@@ -4016,7 +3900,7 @@ var app = (function () {
     			add_location(div2, file$w, 14, 8, 606);
     			attr_dev(a, "class", "font-weight-600 text-fast-blue text-decoration-line-bottom");
     			attr_dev(a, "href", "/team");
-    			add_location(a, file$w, 42, 28, 2389);
+    			add_location(a, file$w, 41, 28, 2348);
     			attr_dev(span, "class", "alt-font font-weight-500 text-extra-medium text-extra-dark-gray letter-spacing-minus-1-half");
     			add_location(span, file$w, 40, 24, 2213);
     			attr_dev(div3, "class", "col-12 text-center margin-6-half-rem-top lg-margin-5-rem-top wow animate__fadeIn");
@@ -4050,7 +3934,6 @@ var app = (function () {
     			append_dev(div5, div4);
     			append_dev(div4, div3);
     			append_dev(div3, span);
-    			append_dev(span, t5);
     			append_dev(span, a);
     		},
     		p: function update(ctx, [dirty]) {
@@ -4746,12 +4629,10 @@ var app = (function () {
     	let t6;
     	let samples;
     	let t7;
-    	let team;
-    	let t8;
     	let explain;
+    	let t8;
+    	let team;
     	let t9;
-    	let counter;
-    	let t10;
     	let footer;
     	let current;
     	navbar = new Navbar({ $$inline: true });
@@ -4761,9 +4642,8 @@ var app = (function () {
     	ability = new Ability({ $$inline: true });
     	process = new Process({ $$inline: true });
     	samples = new Samples({ $$inline: true });
-    	team = new Team$1({ $$inline: true });
     	explain = new Explain({ $$inline: true });
-    	counter = new Counter({ $$inline: true });
+    	team = new Team$1({ $$inline: true });
     	footer = new Footer({ $$inline: true });
 
     	const block = {
@@ -4787,12 +4667,10 @@ var app = (function () {
     			t6 = space();
     			create_component(samples.$$.fragment);
     			t7 = space();
-    			create_component(team.$$.fragment);
-    			t8 = space();
     			create_component(explain.$$.fragment);
+    			t8 = space();
+    			create_component(team.$$.fragment);
     			t9 = space();
-    			create_component(counter.$$.fragment);
-    			t10 = space();
     			create_component(footer.$$.fragment);
     			if (!src_url_equal(script0.src, script0_src_value = "../../js/jquery.min.js")) attr_dev(script0, "src", script0_src_value);
     			add_location(script0, file$s, 14, 4, 592);
@@ -4825,12 +4703,10 @@ var app = (function () {
     			append_dev(main, t6);
     			mount_component(samples, main, null);
     			append_dev(main, t7);
-    			mount_component(team, main, null);
-    			append_dev(main, t8);
     			mount_component(explain, main, null);
+    			append_dev(main, t8);
+    			mount_component(team, main, null);
     			append_dev(main, t9);
-    			mount_component(counter, main, null);
-    			append_dev(main, t10);
     			mount_component(footer, main, null);
     			current = true;
     		},
@@ -4844,9 +4720,8 @@ var app = (function () {
     			transition_in(ability.$$.fragment, local);
     			transition_in(process.$$.fragment, local);
     			transition_in(samples.$$.fragment, local);
-    			transition_in(team.$$.fragment, local);
     			transition_in(explain.$$.fragment, local);
-    			transition_in(counter.$$.fragment, local);
+    			transition_in(team.$$.fragment, local);
     			transition_in(footer.$$.fragment, local);
     			current = true;
     		},
@@ -4858,9 +4733,8 @@ var app = (function () {
     			transition_out(ability.$$.fragment, local);
     			transition_out(process.$$.fragment, local);
     			transition_out(samples.$$.fragment, local);
-    			transition_out(team.$$.fragment, local);
     			transition_out(explain.$$.fragment, local);
-    			transition_out(counter.$$.fragment, local);
+    			transition_out(team.$$.fragment, local);
     			transition_out(footer.$$.fragment, local);
     			current = false;
     		},
@@ -4877,9 +4751,8 @@ var app = (function () {
     			destroy_component(ability);
     			destroy_component(process);
     			destroy_component(samples);
-    			destroy_component(team);
     			destroy_component(explain);
-    			destroy_component(counter);
+    			destroy_component(team);
     			destroy_component(footer);
     		}
     	};
@@ -4972,28 +4845,28 @@ var app = (function () {
     			a = element("a");
     			i = element("i");
     			attr_dev(div0, "class", "opacity-extra-medium bg-extra-dark-gray");
-    			add_location(div0, file$r, 7, 4, 221);
+    			add_location(div0, file$r, 7, 4, 207);
     			attr_dev(h1, "class", "alt-font text-white opacity-6 margin-20px-bottom");
-    			add_location(h1, file$r, 11, 16, 554);
+    			add_location(h1, file$r, 11, 16, 540);
     			attr_dev(h2, "class", "text-white alt-font font-weight-500 w-55 md-w-65 sm-w-80 center-col xs-w-100 letter-spacing-minus-1px line-height-50 sm-line-height-45 xs-line-height-30 no-margin-bottom");
-    			add_location(h2, file$r, 12, 16, 647);
+    			add_location(h2, file$r, 12, 16, 633);
     			attr_dev(div1, "class", "col-12 position-relative page-title-extra-small text-center d-flex align-items-center justify-content-center flex-column");
-    			add_location(div1, file$r, 10, 12, 403);
+    			add_location(div1, file$r, 10, 12, 389);
     			attr_dev(i, "class", "ti-arrow-down icon-extra-small text-white bg-transparent-black padding-15px-all xs-padding-10px-all border-radius-100");
-    			add_location(i, file$r, 14, 88, 954);
+    			add_location(i, file$r, 14, 88, 940);
     			attr_dev(a, "href", "#about");
     			attr_dev(a, "class", "section-link");
-    			add_location(a, file$r, 14, 50, 916);
+    			add_location(a, file$r, 14, 50, 902);
     			attr_dev(div2, "class", "down-section text-center");
-    			add_location(div2, file$r, 14, 12, 878);
+    			add_location(div2, file$r, 14, 12, 864);
     			attr_dev(div3, "class", "row align-items-stretch justify-content-center small-screen");
-    			add_location(div3, file$r, 9, 8, 317);
+    			add_location(div3, file$r, 9, 8, 303);
     			attr_dev(div4, "class", "container");
-    			add_location(div4, file$r, 8, 4, 285);
+    			add_location(div4, file$r, 8, 4, 271);
     			attr_dev(section, "class", "parallax");
     			attr_dev(section, "data-parallax-background-ratio", "0.5");
     			set_style(section, "background-image", "url('images/about-us-bg.jpg')");
-    			add_location(section, file$r, 6, 0, 97);
+    			add_location(section, file$r, 6, 0, 83);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -5035,7 +4908,7 @@ var app = (function () {
     function instance$r($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Title', slots, []);
-    	let about_us = "درباره میز گرد";
+    	let about_us = "";
     	let who_we_are = "ما میز گرد هستیم";
     	const writable_props = [];
 
@@ -5131,37 +5004,44 @@ var app = (function () {
     			p1.textContent = `${/*about_work*/ ctx[1].desc}`;
     			attr_dev(div0, "class", "w-100 md-h-700px sm-h-550px xs-h-450px cover-background");
     			set_style(div0, "background-image", "url('" + /*about_us*/ ctx[0].img + "')");
-    			add_location(div0, file$q, 19, 16, 732);
+    			add_location(div0, file$q, 19, 16, 883);
     			attr_dev(div1, "class", "col-12 col-lg-4 pe-lg-0 d-flex md-margin-30px-bottom");
-    			add_location(div1, file$q, 18, 12, 649);
+    			add_location(div1, file$q, 18, 12, 800);
+    			set_style(span0, "text-align", "right");
+    			set_style(span0, "direction", "rtl");
     			attr_dev(span0, "class", "text-extra-large alt-font font-weight-500 text-white margin-20px-bottom d-block");
-    			add_location(span0, file$q, 23, 20, 1137);
+    			add_location(span0, file$q, 23, 20, 1288);
+    			set_style(p0, "text-align", "justify");
+    			set_style(p0, "direction", "rtl");
     			attr_dev(p0, "class", "text-white opacity-7");
-    			add_location(p0, file$q, 24, 20, 1275);
+    			add_location(p0, file$q, 24, 20, 1468);
+    			set_style(a, "text-align", "right");
     			attr_dev(a, "href", /*about_us*/ ctx[0].link.url);
     			attr_dev(a, "class", "btn btn-large btn-link text-white text-white-hover align-self-start");
-    			add_location(a, file$q, 25, 20, 1347);
+    			add_location(a, file$q, 25, 20, 1584);
     			attr_dev(div2, "class", "justify-content-center w-100 d-flex flex-column bg-fast-blue padding-5-half-rem-lr lg-padding-3-rem-lr md-padding-4-rem-all");
-    			add_location(div2, file$q, 22, 16, 979);
+    			add_location(div2, file$q, 22, 16, 1130);
     			attr_dev(div3, "class", "col-12 col-lg-4 col-md-6 ps-lg-0 d-flex sm-margin-30px-bottom");
-    			add_location(div3, file$q, 21, 12, 887);
+    			add_location(div3, file$q, 21, 12, 1038);
     			if (!src_url_equal(img.src, img_src_value = /*about_work*/ ctx[1].img)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
-    			add_location(img, file$q, 29, 16, 1586);
+    			add_location(img, file$q, 29, 16, 1849);
     			attr_dev(span1, "class", "alt-font text-extra-dark-gray font-weight-500 margin-10px-bottom d-block");
-    			add_location(span1, file$q, 31, 20, 1815);
-    			add_location(p1, file$q, 32, 20, 1948);
+    			add_location(span1, file$q, 31, 20, 2078);
+    			set_style(p1, "direction", "rtl");
+    			set_style(p1, "text-align", "justify");
+    			add_location(p1, file$q, 32, 20, 2211);
     			attr_dev(div4, "class", "bg-white padding-3-half-rem-lr padding-3-rem-tb lg-padding-2-rem-all md-padding-2-half-rem-all sm-padding-4-rem-all last-paragraph-no-margin");
-    			add_location(div4, file$q, 30, 16, 1640);
+    			add_location(div4, file$q, 30, 16, 1903);
     			attr_dev(div5, "class", "col-12 col-lg-4 col-md-6");
-    			add_location(div5, file$q, 28, 12, 1531);
+    			add_location(div5, file$q, 28, 12, 1794);
     			attr_dev(div6, "class", "row");
-    			add_location(div6, file$q, 17, 8, 619);
+    			add_location(div6, file$q, 17, 8, 770);
     			attr_dev(div7, "class", "container");
-    			add_location(div7, file$q, 16, 4, 587);
+    			add_location(div7, file$q, 16, 4, 738);
     			attr_dev(section, "id", "about");
     			attr_dev(section, "class", "bg-light-gray");
-    			add_location(section, file$q, 15, 0, 540);
+    			add_location(section, file$q, 15, 0, 691);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -5214,15 +5094,15 @@ var app = (function () {
     	validate_slots('About', slots, []);
 
     	let about_us = {
-    		title: "ما یک سال است که در این حوزه فعالیت داریم داریم .",
-    		desc: "متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن ",
-    		img: "images/about-us-img-07.jpg",
+    		title: "ما سه سال است که در این حوزه فعالیت داریم  .",
+    		desc: "گروه میزگرد که از سال 1397 در حوزه رشد کسب و کار شما در فضای مجازی شروع به کار کرده است با حضور مشاوران و متخصصان خود در این زمینه در سال های اخیر به پیشرفت های زیادی دست یافته است .",
+    		img: "images/about-2.png",
     		link: { url: "/service", txt: "خدمات ما" }
     	};
 
     	let about_work = {
     		title: "درباره کار ما",
-    		desc: "متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن ",
+    		desc: "با شیوع کرونا و بسته شدن مشاغل فضای مجازی روز به روز در حال پیشرفت  است اگر شما هم به دنبال رشد کسب و کار خود در فضای مجازی هستید و نیاز به کمک دارید حتما با ما تماس بگیرید. ",
     		img: "images/about-us-img-07.jpg"
     	};
 
@@ -5259,6 +5139,39 @@ var app = (function () {
     		});
     	}
     }
+
+    let clients = [
+            {
+                name: "کوک",
+                img: "images/clients-logo-06.png",
+                link: "https://aerbir.ir"
+            },
+         {
+             name: "کوک",
+             img: "images/clients-logo-06.png",
+             link: "https://aerbir.ir"
+         },
+         {
+             name: "کوک",
+             img: "images/clients-logo-06.png",
+             link: "https://aerbir.ir"
+         },
+         {
+             name: "کوک",
+             img: "images/clients-logo-06.png",
+             link: "https://aerbir.ir"
+         },
+         {
+             name: "کوک",
+             img: "images/clients-logo-06.png",
+             link: "https://aerbir.ir"
+         },
+         {
+             name: "کوک",
+             img: "images/clients-logo-06.png",
+             link: "https://aerbir.ir"
+         },
+            ];
 
     /* src/inc/about/clients.svelte generated by Svelte v3.44.0 */
     const file$p = "src/inc/about/clients.svelte";
@@ -5465,40 +5378,6 @@ var app = (function () {
     	}
     }
 
-    let features = [
-        {
-            icon: "line-icon-Heart",
-            title: "تایتل",
-            desc: "متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن ",
-        },
-        {
-            icon: "line-icon-Heart",
-            title: "تایتل",
-            desc: "متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن ",
-        },
-        {
-            icon: "line-icon-Heart",
-            title: "تایتل",
-            desc: "متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن ",
-        },
-        {
-            icon: "line-icon-Heart",
-            title: "تایتل",
-            desc: "متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن ",
-        },
-        {
-            icon: "line-icon-Heart",
-            title: "تایتل",
-            desc: "متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن ",
-        },
-        {
-            icon: "line-icon-Heart",
-            title: "تایتل",
-            desc: "متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن ",
-        },
-
-    ];
-
     /* src/inc/about/features.svelte generated by Svelte v3.44.0 */
     const file$o = "src/inc/about/features.svelte";
 
@@ -5517,7 +5396,7 @@ var app = (function () {
     	let t0;
     	let div1;
     	let span;
-    	let t1_value = /*feature*/ ctx[3].title + "";
+    	let t1_value = /*feature*/ ctx[3].txt + "";
     	let t1;
     	let t2;
     	let p;
@@ -5543,21 +5422,21 @@ var app = (function () {
     			t4 = space();
     			div2 = element("div");
     			t5 = space();
-    			attr_dev(i, "class", "" + (/*feature*/ ctx[3].icon + " icon-medium text-fast-blue"));
-    			add_location(i, file$o, 22, 24, 1085);
+    			attr_dev(i, "class", "fa " + /*feature*/ ctx[3].icon + " icon-medium text-fast-blue");
+    			add_location(i, file$o, 22, 24, 1115);
     			attr_dev(div0, "class", "feature-box-icon");
-    			add_location(div0, file$o, 21, 20, 1030);
+    			add_location(div0, file$o, 21, 20, 1060);
     			attr_dev(span, "class", "alt-font font-weight-500 margin-10px-bottom d-block text-extra-dark-gray");
-    			add_location(span, file$o, 25, 24, 1273);
-    			add_location(p, file$o, 26, 24, 1407);
+    			add_location(span, file$o, 25, 24, 1306);
+    			add_location(p, file$o, 26, 24, 1438);
     			attr_dev(div1, "class", "feature-box-content last-paragraph-no-margin");
-    			add_location(div1, file$o, 24, 20, 1190);
+    			add_location(div1, file$o, 24, 20, 1223);
     			attr_dev(div2, "class", "feature-box-overlay bg-gradient-fast-blue-purple");
-    			add_location(div2, file$o, 28, 20, 1476);
+    			add_location(div2, file$o, 28, 20, 1507);
     			attr_dev(div3, "class", "feature-box h-100 feature-box-left-icon border-radius-5px bg-white box-shadow-small feature-box-dark-hover overflow-hidden padding-4-rem-all");
-    			add_location(div3, file$o, 20, 16, 855);
+    			add_location(div3, file$o, 20, 16, 885);
     			attr_dev(div4, "class", "col-12 col-lg-6 col-md-9 margin-30px-bottom xs-margin-15px-bottom");
-    			add_location(div4, file$o, 19, 16, 759);
+    			add_location(div4, file$o, 19, 16, 789);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div4, anchor);
@@ -5629,19 +5508,19 @@ var app = (function () {
     			}
 
     			attr_dev(span, "class", "text-extra-medium margin-15px-bottom alt-font d-block w-100");
-    			add_location(span, file$o, 13, 16, 413);
+    			add_location(span, file$o, 13, 16, 443);
     			attr_dev(h5, "class", "alt-font text-extra-dark-gray font-weight-500 margin-2-rem-bottom sm-w-100");
-    			add_location(h5, file$o, 14, 16, 518);
+    			add_location(h5, file$o, 14, 16, 548);
     			attr_dev(div0, "class", "col-12 col-lg-6 col-sm-8 text-center margin-5-rem-bottom md-margin-3-rem-bottom");
-    			add_location(div0, file$o, 12, 12, 303);
+    			add_location(div0, file$o, 12, 12, 333);
     			attr_dev(div1, "class", "row justify-content-center");
-    			add_location(div1, file$o, 11, 8, 250);
+    			add_location(div1, file$o, 11, 8, 280);
     			attr_dev(div2, "class", "row justify-content-center");
-    			add_location(div2, file$o, 17, 8, 661);
+    			add_location(div2, file$o, 17, 8, 691);
     			attr_dev(div3, "class", "container");
-    			add_location(div3, file$o, 10, 4, 218);
+    			add_location(div3, file$o, 10, 4, 248);
     			attr_dev(section, "class", "bg-light-gray wow animate__fadeIn");
-    			add_location(section, file$o, 9, 0, 162);
+    			add_location(section, file$o, 9, 0, 192);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -5708,16 +5587,16 @@ var app = (function () {
     function instance$o($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Features', slots, []);
-    	let title = "تایتل";
-    	let title2 = "تایتل2";
-    	let _features = features.slice(0, 4);
+    	let title = "چرا میز گرد؟";
+    	let title2 = "مزیت های میز گرد";
+    	let _features = feature_box.slice(0, 4);
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<Features> was created with unknown prop '${key}'`);
     	});
 
-    	$$self.$capture_state = () => ({ title, title2, features, _features });
+    	$$self.$capture_state = () => ({ title, title2, feature_box, _features });
 
     	$$self.$inject_state = $$props => {
     		if ('title' in $$props) $$invalidate(0, title = $$props.title);
@@ -5757,16 +5636,13 @@ var app = (function () {
     	let t1;
     	let about;
     	let t2;
-    	let client;
-    	let t3;
     	let features;
-    	let t4;
+    	let t3;
     	let footer;
     	let current;
     	navbar = new Navbar({ $$inline: true });
     	title = new Title$2({ $$inline: true });
     	about = new About$1({ $$inline: true });
-    	client = new Clients({ $$inline: true });
     	features = new Features$1({ $$inline: true });
     	footer = new Footer({ $$inline: true });
 
@@ -5779,10 +5655,8 @@ var app = (function () {
     			t1 = space();
     			create_component(about.$$.fragment);
     			t2 = space();
-    			create_component(client.$$.fragment);
-    			t3 = space();
     			create_component(features.$$.fragment);
-    			t4 = space();
+    			t3 = space();
     			create_component(footer.$$.fragment);
     			add_location(main, file$n, 11, 0, 323);
     		},
@@ -5797,10 +5671,8 @@ var app = (function () {
     			append_dev(main, t1);
     			mount_component(about, main, null);
     			append_dev(main, t2);
-    			mount_component(client, main, null);
-    			append_dev(main, t3);
     			mount_component(features, main, null);
-    			append_dev(main, t4);
+    			append_dev(main, t3);
     			mount_component(footer, main, null);
     			current = true;
     		},
@@ -5810,7 +5682,6 @@ var app = (function () {
     			transition_in(navbar.$$.fragment, local);
     			transition_in(title.$$.fragment, local);
     			transition_in(about.$$.fragment, local);
-    			transition_in(client.$$.fragment, local);
     			transition_in(features.$$.fragment, local);
     			transition_in(footer.$$.fragment, local);
     			current = true;
@@ -5819,7 +5690,6 @@ var app = (function () {
     			transition_out(navbar.$$.fragment, local);
     			transition_out(title.$$.fragment, local);
     			transition_out(about.$$.fragment, local);
-    			transition_out(client.$$.fragment, local);
     			transition_out(features.$$.fragment, local);
     			transition_out(footer.$$.fragment, local);
     			current = false;
@@ -5829,7 +5699,6 @@ var app = (function () {
     			destroy_component(navbar);
     			destroy_component(title);
     			destroy_component(about);
-    			destroy_component(client);
     			destroy_component(features);
     			destroy_component(footer);
     		}
@@ -5907,20 +5776,21 @@ var app = (function () {
     			div1 = element("div");
     			div0 = element("div");
     			span0 = element("span");
-    			span0.textContent = "تیمی که میترکونه زمانی که باشیم با";
+    			span0.textContent = "بهترین ها برای";
     			t1 = space();
     			br = element("br");
     			t2 = space();
     			span1 = element("span");
-    			span1.textContent = "! همیدیگر";
+    			span1.textContent = "!بهترین ها";
     			attr_dev(span0, "class", "alt-font font-weight-500 text-white text-uppercase text-small letter-spacing-1px bg-extra-dark-gray d-inline-block padding-20px-lr padding-5px-tb");
     			add_location(span0, file$m, 5, 60, 327);
     			attr_dev(div0, "class", "margin-20px-bottom d-block");
     			add_location(div0, file$m, 5, 20, 287);
-    			add_location(br, file$m, 6, 20, 555);
+    			add_location(br, file$m, 6, 20, 535);
     			attr_dev(span1, "class", "text-extra-big alt-font text-uppercase text-extra-dark-gray font-weight-700 letter-spacing-minus-5px image-mask cover-background xs-letter-spacing-minus-1px");
     			set_style(span1, "background-image", "url('images/fancy-text-img-01.jpg')");
-    			add_location(span1, file$m, 7, 20, 580);
+    			set_style(span1, "direction", "rtl");
+    			add_location(span1, file$m, 7, 20, 560);
     			attr_dev(div1, "class", "tilt-box");
     			add_location(div1, file$m, 4, 16, 244);
     			attr_dev(div2, "class", "col-md-12 text-center margin-7-rem-bottom z-index-0");
@@ -6003,14 +5873,14 @@ var app = (function () {
     	return child_ctx;
     }
 
-    function get_each_context_1$1(ctx, list, i) {
+    function get_each_context_1(ctx, list, i) {
     	const child_ctx = ctx.slice();
     	child_ctx[3] = list[i];
     	return child_ctx;
     }
 
     // (16:32) {#each team.social as social}
-    function create_each_block_1$1(ctx) {
+    function create_each_block_1(ctx) {
     	let a;
     	let i;
 
@@ -6040,7 +5910,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_each_block_1$1.name,
+    		id: create_each_block_1.name,
     		type: "each",
     		source: "(16:32) {#each team.social as social}",
     		ctx
@@ -6078,7 +5948,7 @@ var app = (function () {
     	let each_blocks = [];
 
     	for (let i = 0; i < each_value_1.length; i += 1) {
-    		each_blocks[i] = create_each_block_1$1(get_each_context_1$1(ctx, each_value_1, i));
+    		each_blocks[i] = create_each_block_1(get_each_context_1(ctx, each_value_1, i));
     	}
 
     	const block = {
@@ -6159,12 +6029,12 @@ var app = (function () {
     				let i;
 
     				for (i = 0; i < each_value_1.length; i += 1) {
-    					const child_ctx = get_each_context_1$1(ctx, each_value_1, i);
+    					const child_ctx = get_each_context_1(ctx, each_value_1, i);
 
     					if (each_blocks[i]) {
     						each_blocks[i].p(child_ctx, dirty);
     					} else {
-    						each_blocks[i] = create_each_block_1$1(child_ctx);
+    						each_blocks[i] = create_each_block_1(child_ctx);
     						each_blocks[i].c();
     						each_blocks[i].m(div1, null);
     					}
@@ -6811,7 +6681,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (29:20) {#each addresses as address }
+    // (24:20) {#each addresses as address }
     function create_each_block$5(ctx) {
     	let div;
     	let span0;
@@ -6826,9 +6696,6 @@ var app = (function () {
     	let t4_value = /*address*/ ctx[2].phone + "";
     	let t4;
     	let t5;
-    	let a;
-    	let t6;
-    	let t7;
 
     	const block = {
     		c: function create() {
@@ -6842,21 +6709,14 @@ var app = (function () {
     			span1 = element("span");
     			t4 = text(t4_value);
     			t5 = space();
-    			a = element("a");
-    			t6 = text("دیدن در نقشه");
-    			t7 = space();
     			attr_dev(span0, "class", "alt-font d-block text-extra-dark-gray font-weight-500 margin-10px-bottom");
-    			add_location(span0, file$g, 30, 24, 917);
+    			add_location(span0, file$g, 25, 24, 883);
     			attr_dev(p, "class", "w-80 margin-5px-bottom lg-w-90");
-    			add_location(p, file$g, 31, 24, 1054);
+    			add_location(p, file$g, 26, 24, 1020);
     			attr_dev(span1, "class", "d-block margin-10px-bottom");
-    			add_location(span1, file$g, 32, 24, 1142);
-    			attr_dev(a, "href", /*address*/ ctx[2].google_map);
-    			attr_dev(a, "target", "_blank");
-    			attr_dev(a, "class", "text-uppercase text-small text-extra-dark-gray font-weight-500 text-decoration-line-bottom");
-    			add_location(a, file$g, 33, 24, 1230);
+    			add_location(span1, file$g, 27, 24, 1108);
     			attr_dev(div, "class", "col-12 col-sm-6 xs-margin-30px-bottom");
-    			add_location(div, file$g, 29, 24, 841);
+    			add_location(div, file$g, 24, 24, 807);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -6869,9 +6729,6 @@ var app = (function () {
     			append_dev(div, span1);
     			append_dev(span1, t4);
     			append_dev(div, t5);
-    			append_dev(div, a);
-    			append_dev(a, t6);
-    			append_dev(div, t7);
     		},
     		p: noop,
     		d: function destroy(detaching) {
@@ -6883,7 +6740,7 @@ var app = (function () {
     		block,
     		id: create_each_block$5.name,
     		type: "each",
-    		source: "(29:20) {#each addresses as address }",
+    		source: "(24:20) {#each addresses as address }",
     		ctx
     	});
 
@@ -6923,19 +6780,21 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
+    			set_style(h5, "text-align", "right");
+    			set_style(h5, "direction", "rtl");
     			attr_dev(h5, "class", "alt-font w-50 text-extra-dark-gray font-weight-500 mb-0 lg-w-65 md-w-100");
-    			add_location(h5, file$g, 24, 16, 565);
+    			add_location(h5, file$g, 19, 16, 489);
     			attr_dev(div0, "class", "col-12 col-lg-6 col-md-4 sm-margin-30px-bottom");
-    			add_location(div0, file$g, 23, 12, 488);
+    			add_location(div0, file$g, 18, 12, 412);
     			attr_dev(div1, "class", "row");
-    			add_location(div1, file$g, 27, 16, 749);
+    			add_location(div1, file$g, 22, 16, 715);
     			attr_dev(div2, "class", "col-12 col-lg-6 col-md-8");
-    			add_location(div2, file$g, 26, 12, 694);
+    			add_location(div2, file$g, 21, 12, 660);
     			attr_dev(div3, "class", "row align-items-end");
-    			add_location(div3, file$g, 22, 8, 442);
+    			add_location(div3, file$g, 17, 8, 366);
     			attr_dev(div4, "class", "container");
-    			add_location(div4, file$g, 21, 4, 410);
-    			add_location(section, file$g, 20, 0, 396);
+    			add_location(div4, file$g, 16, 4, 334);
+    			add_location(section, file$g, 15, 0, 320);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -7001,19 +6860,13 @@ var app = (function () {
     function instance$g($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Office', slots, []);
-    	let title = "متن برای اینجا";
+    	let title = "برای ارتباط با ما تنها کاری که باید بکنید اینه که گوشیتون رو بردارید و باما تماس بگیرید";
 
     	let addresses = [
     		{
-    			location: "کرج",
-    			address: "آدرس",
-    			phone: "+989102625250",
-    			google_map: "https://goo.gl/maps/c6VAWeVMSnUMZLKz5"
-    		},
-    		{
-    			location: "تهران",
-    			address: "آدرس",
-    			phone: "+989102625250",
+    			location: "مهدی مهدی نژاد",
+    			address: "",
+    			phone: "+989386652538",
     			google_map: "https://goo.gl/maps/c6VAWeVMSnUMZLKz5"
     		}
     	];
@@ -7183,26 +7036,26 @@ var app = (function () {
     			div3 = element("div");
     			iframe = element("iframe");
     			attr_dev(div0, "class", "col-12 col-lg-5 col-md-8 md-margin-50px-bottom");
-    			add_location(div0, file$e, 7, 12, 415);
+    			add_location(div0, file$e, 7, 12, 483);
     			attr_dev(div1, "class", "row align-items-end justify-content-center");
-    			add_location(div1, file$e, 6, 8, 346);
+    			add_location(div1, file$e, 6, 8, 414);
     			attr_dev(div2, "class", "container");
-    			add_location(div2, file$e, 5, 4, 314);
+    			add_location(div2, file$e, 5, 4, 382);
     			attr_dev(section0, "class", "big-section wow animate__fadeIn");
-    			add_location(section0, file$e, 4, 0, 260);
+    			add_location(section0, file$e, 4, 0, 328);
     			attr_dev(iframe, "class", "w-100 h-100 filter-grayscale-100");
     			if (!src_url_equal(iframe.src, iframe_src_value = /*map*/ ctx[0])) attr_dev(iframe, "src", iframe_src_value);
-    			add_location(iframe, file$e, 20, 20, 769);
+    			add_location(iframe, file$e, 20, 20, 837);
     			attr_dev(div3, "class", "map-style-3 h-500px xs-h-300px");
-    			add_location(div3, file$e, 19, 16, 704);
+    			add_location(div3, file$e, 19, 16, 772);
     			attr_dev(div4, "class", "col-md-12 px-0");
-    			add_location(div4, file$e, 18, 12, 659);
+    			add_location(div4, file$e, 18, 12, 727);
     			attr_dev(div5, "class", "row");
-    			add_location(div5, file$e, 17, 8, 629);
+    			add_location(div5, file$e, 17, 8, 697);
     			attr_dev(div6, "class", "container-fluid");
-    			add_location(div6, file$e, 16, 4, 591);
+    			add_location(div6, file$e, 16, 4, 659);
     			attr_dev(section1, "class", "no-padding-tb wow animate__fadeIn");
-    			add_location(section1, file$e, 15, 0, 535);
+    			add_location(section1, file$e, 15, 0, 603);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -7244,7 +7097,7 @@ var app = (function () {
     function instance$e($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Map', slots, []);
-    	let map = "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d51743.463919613816!2d50.9558051!3d35.8498251!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDUxJzU1LjMiTiA1MMKwNTgnMDUuMSJF!5e0!3m2!1sen!2s!4v1636456272022!5m2!1sen!2s";
+    	let map = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d103537.6135119127!2d50.877125440646715!3d35.810968837227506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8dbf95ef45f011%3A0x722a04e54eba9bcd!2sKaraj%2C%20Alborz%20Province%2C%20Iran!5e0!3m2!1sen!2sse!4v1640440710159!5m2!1sen!2sse";
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
@@ -7416,7 +7269,7 @@ var app = (function () {
     function instance$d($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('S_contact', slots, []);
-    	let phone = "+989102625250";
+    	let phone = "+989386652538";
     	let email = "info@theroundtable.ir";
     	let domain = "theroundtable.ir";
     	const writable_props = [];
@@ -7461,30 +7314,29 @@ var app = (function () {
     	let main;
     	let navbar;
     	let t0;
-    	let title;
+    	let section;
+    	let div0;
     	let t1;
-    	let office;
-    	let t2;
-    	let image;
+    	let div3;
+    	let div2;
+    	let div1;
+    	let h1;
     	let t3;
-    	let br;
+    	let span;
     	let t4;
-    	let map;
+    	let office;
     	let t5;
-    	let s_contact;
+    	let image;
     	let t6;
+    	let br;
+    	let t7;
+    	let map;
+    	let t8;
+    	let s_contact;
+    	let t9;
     	let footer;
     	let current;
     	navbar = new Navbar({ $$inline: true });
-
-    	title = new Title$1({
-    			props: {
-    				page: "ارتباط با ما",
-    				description: "جایی هست که میشه بود متن اینجا !"
-    			},
-    			$$inline: true
-    		});
-
     	office = new Office({ $$inline: true });
     	image = new Image({ $$inline: true });
     	map = new Map$1({ $$inline: true });
@@ -7496,20 +7348,43 @@ var app = (function () {
     			main = element("main");
     			create_component(navbar.$$.fragment);
     			t0 = space();
-    			create_component(title.$$.fragment);
+    			section = element("section");
+    			div0 = element("div");
     			t1 = space();
-    			create_component(office.$$.fragment);
-    			t2 = space();
-    			create_component(image.$$.fragment);
+    			div3 = element("div");
+    			div2 = element("div");
+    			div1 = element("div");
+    			h1 = element("h1");
+    			h1.textContent = "با ما درتماس باشید";
     			t3 = space();
-    			br = element("br");
+    			span = element("span");
     			t4 = space();
-    			create_component(map.$$.fragment);
+    			create_component(office.$$.fragment);
     			t5 = space();
-    			create_component(s_contact.$$.fragment);
+    			create_component(image.$$.fragment);
     			t6 = space();
+    			br = element("br");
+    			t7 = space();
+    			create_component(map.$$.fragment);
+    			t8 = space();
+    			create_component(s_contact.$$.fragment);
+    			t9 = space();
     			create_component(footer.$$.fragment);
-    			add_location(br, file$c, 18, 4, 505);
+    			attr_dev(div0, "class", "opacity-full bg-gradient-fast-blue-purple z-index-0");
+    			add_location(div0, file$c, 15, 12, 469);
+    			attr_dev(h1, "class", "text-white alt-font font-weight-500 letter-spacing-minus-1 margin-5-rem-bottom sm-margin-3-rem-bottom");
+    			add_location(h1, file$c, 19, 24, 802);
+    			attr_dev(span, "class", "w-1px h-80px d-inline-block bg-white margin-5-rem-bottom sm-margin-3-rem-bottom sm-h-50px");
+    			add_location(span, file$c, 20, 24, 964);
+    			attr_dev(div1, "class", "col-12 col-xl-6 col-lg-7 col-md-10 position-relative page-title-large text-center");
+    			add_location(div1, file$c, 18, 20, 682);
+    			attr_dev(div2, "class", "row align-items-end justify-content-center h-100");
+    			add_location(div2, file$c, 17, 16, 599);
+    			attr_dev(div3, "class", "container h-100");
+    			add_location(div3, file$c, 16, 12, 553);
+    			attr_dev(section, "class", "no-padding one-third-screen position-relative");
+    			add_location(section, file$c, 14, 0, 393);
+    			add_location(br, file$c, 28, 4, 1196);
     			add_location(main, file$c, 11, 0, 371);
     		},
     		l: function claim(nodes) {
@@ -7519,18 +7394,26 @@ var app = (function () {
     			insert_dev(target, main, anchor);
     			mount_component(navbar, main, null);
     			append_dev(main, t0);
-    			mount_component(title, main, null);
-    			append_dev(main, t1);
-    			mount_component(office, main, null);
-    			append_dev(main, t2);
-    			mount_component(image, main, null);
-    			append_dev(main, t3);
-    			append_dev(main, br);
+    			append_dev(main, section);
+    			append_dev(section, div0);
+    			append_dev(section, t1);
+    			append_dev(section, div3);
+    			append_dev(div3, div2);
+    			append_dev(div2, div1);
+    			append_dev(div1, h1);
+    			append_dev(div1, t3);
+    			append_dev(div1, span);
     			append_dev(main, t4);
-    			mount_component(map, main, null);
+    			mount_component(office, main, null);
     			append_dev(main, t5);
-    			mount_component(s_contact, main, null);
+    			mount_component(image, main, null);
     			append_dev(main, t6);
+    			append_dev(main, br);
+    			append_dev(main, t7);
+    			mount_component(map, main, null);
+    			append_dev(main, t8);
+    			mount_component(s_contact, main, null);
+    			append_dev(main, t9);
     			mount_component(footer, main, null);
     			current = true;
     		},
@@ -7538,7 +7421,6 @@ var app = (function () {
     		i: function intro(local) {
     			if (current) return;
     			transition_in(navbar.$$.fragment, local);
-    			transition_in(title.$$.fragment, local);
     			transition_in(office.$$.fragment, local);
     			transition_in(image.$$.fragment, local);
     			transition_in(map.$$.fragment, local);
@@ -7548,7 +7430,6 @@ var app = (function () {
     		},
     		o: function outro(local) {
     			transition_out(navbar.$$.fragment, local);
-    			transition_out(title.$$.fragment, local);
     			transition_out(office.$$.fragment, local);
     			transition_out(image.$$.fragment, local);
     			transition_out(map.$$.fragment, local);
@@ -7559,7 +7440,6 @@ var app = (function () {
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(main);
     			destroy_component(navbar);
-    			destroy_component(title);
     			destroy_component(office);
     			destroy_component(image);
     			destroy_component(map);
@@ -7667,33 +7547,37 @@ var app = (function () {
     			t8 = space();
     			span1 = element("span");
     			attr_dev(span0, "class", "alt-font margin-20px-bottom text-gradient-sky-blue-pink d-inline-block text-uppercase font-weight-500 letter-spacing-1px");
-    			add_location(span0, file$b, 15, 16, 554);
+    			add_location(span0, file$b, 15, 16, 526);
+    			set_style(h4, "direction", "rtl");
+    			set_style(h4, "text-align", "left");
     			attr_dev(h4, "class", "alt-font font-weight-600 text-extra-dark-gray w-95");
-    			add_location(h4, file$b, 16, 16, 728);
+    			add_location(h4, file$b, 16, 16, 700);
+    			set_style(p, "direction", "rtl");
+    			set_style(p, "text-align", "right");
     			attr_dev(p, "class", "w-80 lg-w-95");
-    			add_location(p, file$b, 17, 16, 831);
+    			add_location(p, file$b, 17, 16, 844);
     			attr_dev(i, "class", "feather icon-feather-arrow-right icon-very-small right-icon");
-    			add_location(i, file$b, 18, 133, 1009);
+    			add_location(i, file$b, 18, 133, 1064);
     			attr_dev(a, "href", "#services");
     			attr_dev(a, "class", "btn btn-medium btn-dark-gray margin-15px-top btn-round-edge section-link");
-    			add_location(a, file$b, 18, 16, 892);
+    			add_location(a, file$b, 18, 16, 947);
     			attr_dev(div0, "class", "col-12 col-lg-5 col-md-9 md-margin-7-rem-bottom");
-    			add_location(div0, file$b, 14, 12, 476);
+    			add_location(div0, file$b, 14, 12, 448);
     			attr_dev(img, "class", "border-radius-6px");
     			if (!src_url_equal(img.src, img_src_value = "images/our-services-01.jpg")) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", "");
-    			add_location(img, file$b, 22, 20, 1292);
+    			add_location(img, file$b, 22, 20, 1347);
     			attr_dev(span1, "class", "bg-gradient-light-purple-light-orange border-radius-6px overlay");
-    			add_location(span1, file$b, 23, 20, 1385);
+    			add_location(span1, file$b, 23, 20, 1440);
     			attr_dev(figure, "class", "position-right w-100");
-    			add_location(figure, file$b, 21, 16, 1233);
+    			add_location(figure, file$b, 21, 16, 1288);
     			attr_dev(div1, "class", "col-12 col-lg-7 col-md-9 padding-55px-lr md-padding-5px-left sm-padding-50px-right");
-    			add_location(div1, file$b, 20, 12, 1120);
+    			add_location(div1, file$b, 20, 12, 1175);
     			attr_dev(div2, "class", "row align-items-center justify-content-center");
-    			add_location(div2, file$b, 13, 8, 404);
+    			add_location(div2, file$b, 13, 8, 376);
     			attr_dev(div3, "class", "container");
-    			add_location(div3, file$b, 12, 4, 372);
-    			add_location(section, file$b, 11, 0, 358);
+    			add_location(div3, file$b, 12, 4, 344);
+    			add_location(section, file$b, 11, 0, 330);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -7743,9 +7627,9 @@ var app = (function () {
     	validate_slots('About', slots, []);
 
     	let service = {
-    		title: "تایتل",
-    		first_ti: "متنی در اینجا و آنجا متن متن متن متن",
-    		sec_ti: "متنی در اینجا و آنجا متن متن متن متنمتنی در اینجا و آنجا متن متن متن متنمتنی در اینجا و آنجا متن متن متن متنمتنی در اینجا و آنجا متن متن متن متنمتنی در اینجا و آنجا متن متن متن متن",
+    		title: "ما چه کارهایی میکنیم؟",
+    		first_ti: "میز گرد، در خدمت شما !",
+    		sec_ti: "گروه میزگرد علاوه بر تهیه نقشه راه ،  مشاوره  و هدایت شما در حوزه کسب و کارتان ،  استراتژی برند و گسترش کسب و کار شما در فضای مجازی را بر عهده میگیرد.",
     		action: "خدمات ما"
     	};
 
@@ -7842,25 +7726,29 @@ var app = (function () {
     			div2 = element("div");
     			t9 = space();
     			attr_dev(span, "class", "margin-15px-bottom d-block text-extra-medium");
-    			add_location(span, file$a, 37, 24, 1678);
+    			add_location(span, file$a, 37, 24, 1973);
+    			set_style(h6, "direction", "rtl");
+    			set_style(h6, "text-align", "right");
     			attr_dev(h6, "class", "alt-font font-weight-600 d-block text-extra-dark-gray");
-    			add_location(h6, file$a, 38, 24, 1774);
-    			add_location(p, file$a, 39, 24, 1885);
+    			add_location(h6, file$a, 38, 24, 2069);
+    			set_style(p, "text-align", "right");
+    			set_style(p, "direction", "rtl");
+    			add_location(p, file$a, 39, 24, 2222);
     			attr_dev(div0, "class", "h-1px bg-medium-gray margin-25px-bottom w-100");
-    			add_location(div0, file$a, 40, 24, 1930);
+    			add_location(div0, file$a, 40, 24, 2309);
     			attr_dev(i_1, "class", "feather icon-feather-arrow-right icon-extra-small float-end");
-    			add_location(i_1, file$a, 41, 137, 2133);
+    			add_location(i_1, file$a, 41, 137, 2512);
     			attr_dev(a, "class", "text-small font-weight-500 text-uppercase alt-font d-block text-extra-dark-gray");
     			attr_dev(a, "href", "/about");
-    			add_location(a, file$a, 41, 24, 2020);
+    			add_location(a, file$a, 41, 24, 2399);
     			attr_dev(div1, "class", "feature-box-content");
-    			add_location(div1, file$a, 36, 20, 1620);
+    			add_location(div1, file$a, 36, 20, 1915);
     			attr_dev(div2, "class", "feature-box-overlay bg-white");
-    			add_location(div2, file$a, 43, 20, 2260);
+    			add_location(div2, file$a, 43, 20, 2639);
     			attr_dev(div3, "class", "feature-box text-start box-shadow-large box-shadow-double-large-hover bg-white padding-4-rem-all lg-padding-3-rem-all md-padding-4-half-rem-all");
-    			add_location(div3, file$a, 35, 16, 1442);
+    			add_location(div3, file$a, 35, 16, 1737);
     			attr_dev(div4, "class", "col-12 col-lg-4 col-md-9 md-margin-30px-bottom xs-margin-15px-bottom wow animate__fadeIn");
-    			add_location(div4, file$a, 34, 12, 1323);
+    			add_location(div4, file$a, 34, 12, 1618);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div4, anchor);
@@ -7938,19 +7826,19 @@ var app = (function () {
     			}
 
     			attr_dev(span, "class", "alt-font margin-10px-bottom d-inline-block text-uppercase font-weight-500 text-gradient-sky-blue-pink letter-spacing-1px");
-    			add_location(span, file$a, 27, 16, 881);
+    			add_location(span, file$a, 27, 16, 1176);
     			attr_dev(h5, "class", "alt-font text-extra-dark-gray font-weight-600 letter-spacing-minus-1px");
-    			add_location(h5, file$a, 28, 16, 1047);
+    			add_location(h5, file$a, 28, 16, 1342);
     			attr_dev(div0, "class", "col-12 col-md-6 text-center margin-5-rem-bottom sm-margin-3-rem-bottom");
-    			add_location(div0, file$a, 26, 12, 780);
+    			add_location(div0, file$a, 26, 12, 1075);
     			attr_dev(div1, "class", "row justify-content-center");
-    			add_location(div1, file$a, 25, 8, 727);
+    			add_location(div1, file$a, 25, 8, 1022);
     			attr_dev(div2, "class", "row justify-content-center");
-    			add_location(div2, file$a, 31, 8, 1186);
+    			add_location(div2, file$a, 31, 8, 1481);
     			attr_dev(div3, "class", "container");
-    			add_location(div3, file$a, 24, 4, 695);
+    			add_location(div3, file$a, 24, 4, 990);
     			attr_dev(section, "class", "bg-light-gray wow animate__fadeIn");
-    			add_location(section, file$a, 23, 0, 639);
+    			add_location(section, file$a, 23, 0, 934);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -8018,21 +7906,21 @@ var app = (function () {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Possibilities', slots, []);
     	let title = "کار هایی که میکنیم";
-    	let title2 = "سوشال مدیاااا";
+    	let title2 = "خدمات ما";
     	let action = "بیشتر بخوانید";
 
     	let services = [
     		{
-    			title: "تایتل",
-    			des: "متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن ر"
+    			title: "اینستاگرام",
+    			des: "معروف ترین شبکه اجتماعی در تمامی دنیا قطعا بعد از شنیدن این اسم یاد سلبریتی ها می افتین اما اینستاگرام فقط این نیست ما اینجاییم تا باعث رشد  کسب و کار شما توی این شبکه اجتماعی بشیم"
     		},
     		{
-    			title: "تایتل",
-    			des: "متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن ر"
+    			title: "یوتیوب",
+    			des: " حتما وقتی اسم یوتیوب رو میشنوید یاد ویدیوهای آموزشی از سراسر دنیا میوفتید  برای اینکه کسب و کارتون رو با استفاده از این شبکه قدرتمند به دنیا نشون بدین باید با متخصصینش تماس بگیرین. تبریک میگم ما همینجاییم."
     		},
     		{
-    			title: "تایتل",
-    			des: "متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن ر"
+    			title: "تلگرام",
+    			des: "امن ترین فضای اشتراک گذاری اطلاعات در اینترنت اما چطور در این فضا پیشرفت کنید؟ قهوه تان را بنوشید و این کار را به عهده میز گرد بگذارید پیشرفت شما با ما در این شبکه اجتماعی  تضمین شده است"
     		}
     	];
 
@@ -8082,7 +7970,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (40:28) {#each services as service}
+    // (41:28) {#each services as service}
     function create_each_block$3(ctx) {
     	let li;
     	let t_value = /*service*/ ctx[5] + "";
@@ -8094,7 +7982,7 @@ var app = (function () {
     			t = text(t_value);
     			set_style(li, "text-align", "center");
     			attr_dev(li, "class", "border-color-dark-white-transparent mb-0");
-    			add_location(li, file$9, 40, 28, 2083);
+    			add_location(li, file$9, 41, 28, 2069);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, li, anchor);
@@ -8110,7 +7998,7 @@ var app = (function () {
     		block,
     		id: create_each_block$3.name,
     		type: "each",
-    		source: "(40:28) {#each services as service}",
+    		source: "(41:28) {#each services as service}",
     		ctx
     	});
 
@@ -8178,39 +8066,39 @@ var app = (function () {
     			}
 
     			attr_dev(span, "class", "alt-font margin-20px-bottom text-gradient-sky-blue-pink d-inline-block text-uppercase font-weight-500 letter-spacing-1px");
-    			add_location(span, file$9, 27, 24, 855);
+    			add_location(span, file$9, 28, 24, 841);
     			attr_dev(h5, "class", "alt-font font-weight-600 text-extra-dark-gray");
-    			add_location(h5, file$9, 28, 24, 1029);
+    			add_location(h5, file$9, 29, 24, 1015);
     			attr_dev(p, "class", "w-80 margin-4-half-rem-bottom md-w-100");
-    			add_location(p, file$9, 29, 24, 1125);
+    			add_location(p, file$9, 30, 24, 1111);
     			attr_dev(div0, "class", "col-12 position-relative margin-5-half-rem-bottom sm-margin-7-half-rem-bottom");
-    			add_location(div0, file$9, 26, 20, 739);
+    			add_location(div0, file$9, 27, 20, 725);
     			attr_dev(div1, "class", "row");
-    			add_location(div1, file$9, 25, 16, 701);
+    			add_location(div1, file$9, 26, 16, 687);
     			attr_dev(div2, "class", "col-12 col-xl-7 col-lg-8 col-md-12 md-margin-40px-bottom");
-    			add_location(div2, file$9, 24, 12, 614);
+    			add_location(div2, file$9, 25, 12, 600);
     			attr_dev(i, "class", "line-icon-Cursor-Click2 title-extra-large-heavy text-extra-dark-gray opacity-2 position-absolute top-minus-20px left-minus-30px");
-    			add_location(i, file$9, 36, 24, 1594);
+    			add_location(i, file$9, 37, 24, 1580);
     			set_style(h6, "text-align", "right");
     			attr_dev(h6, "class", "alt-font font-weight-500 text-white margin-35px-bottom sm-margin-15px-bottom position-relative z-index-1");
-    			add_location(h6, file$9, 37, 24, 1762);
+    			add_location(h6, file$9, 38, 24, 1748);
     			attr_dev(ul, "class", "list-style-03 alt-font text-white");
-    			add_location(ul, file$9, 38, 24, 1952);
+    			add_location(ul, file$9, 39, 24, 1938);
     			attr_dev(div3, "class", "bg-gradient-fast-blue-purple w-100 overflow-hidden border-radius-4px padding-4-rem-all lg-padding-3-rem-all md-padding-4-rem-all position-relative");
-    			add_location(div3, file$9, 35, 20, 1408);
+    			add_location(div3, file$9, 36, 20, 1394);
     			attr_dev(div4, "class", "sticky-top lg-position-relative");
-    			add_location(div4, file$9, 34, 16, 1342);
+    			add_location(div4, file$9, 35, 16, 1328);
     			attr_dev(div5, "class", "col-12 col-lg-4 col-md-12 offset-xl-1");
-    			add_location(div5, file$9, 33, 12, 1274);
+    			add_location(div5, file$9, 34, 12, 1260);
     			attr_dev(div6, "class", "row");
-    			add_location(div6, file$9, 23, 8, 584);
+    			add_location(div6, file$9, 24, 8, 570);
     			attr_dev(div7, "class", "container");
-    			add_location(div7, file$9, 22, 4, 552);
+    			add_location(div7, file$9, 23, 4, 538);
     			attr_dev(section, "class", "parallax overflow-visible wow animate__fadeIn");
     			attr_dev(section, "id", "services");
     			attr_dev(section, "data-parallax-background-ratio", "0.1");
     			set_style(section, "background-image", "url('images/our-services-17.png')");
-    			add_location(section, file$9, 21, 0, 372);
+    			add_location(section, file$9, 22, 0, 358);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -8288,11 +8176,20 @@ var app = (function () {
     function instance$9($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Services', slots, []);
-    	let title = "تایتل";
-    	let title2 = "سوشال مدیاااا";
-    	let desc = "متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن متن ر";
+    	let title = "خدمات دیجیتال";
+    	let title2 = "با میز گرد جهانی شوید";
+    	let desc = "با این ابزارها کسب و کار خود را جهانی کنید";
     	let services_header = "خدمات ما";
-    	let services = ["خدمات 1", "خدمات 2", "خدمات 3", "خدمات 4", "خدمات 5", "خدمات 6"];
+
+    	let services = [
+    		"اینستاگرام ",
+    		"یوتیوب ",
+    		"تولید محتوا ",
+    		"طراحی وب سایت ",
+    		"سئو ",
+    		"استراتژی برند "
+    	];
+
     	const writable_props = [];
 
     	Object.keys($$props).forEach(key => {
@@ -8335,6 +8232,40 @@ var app = (function () {
     		});
     	}
     }
+
+    let features = [
+        {
+            icon: "fab fa-instagram",
+            title: "",
+            desc: "به 42 میلیون کسب و کار در اینستاگرام بپیوندید ",
+        },
+        {
+            icon: "fab fa-instagram",
+                    title: "",
+            desc: "به یک میلیارد و 85میلیون کاربر کسب و کار خود را نشان دهید  ",
+        },
+        {
+            icon: "fab fa-instagram",
+            title: "",
+            desc: "از دیدن رشد کسب و کارخود لذت ببرید و پول بشمارید",
+        },
+        {
+            icon: "fab fa-youtube",
+            title: "",
+            desc: " در مکان حرفه ای ها کار کنید! ",
+        },
+        {
+            icon: "fab fa-youtube",
+            title: "",
+            desc: " از دیده شدن و کسب درامد خودکار نهایت لذت را ببرید",
+        },
+        {
+            icon: "fa fa-globe",
+            title: "",
+            desc: "بدون مغازه و فروشنده مغازه خود را راه بیاندازید ",
+        },
+
+    ];
 
     /* src/inc/service/features.svelte generated by Svelte v3.44.0 */
     const file$8 = "src/inc/service/features.svelte";
@@ -8564,14 +8495,8 @@ var app = (function () {
     	return child_ctx;
     }
 
-    function get_each_context_1(ctx, list, i) {
-    	const child_ctx = ctx.slice();
-    	child_ctx[7] = list[i];
-    	return child_ctx;
-    }
-
     // (40:12) {#each tolds as told }
-    function create_each_block_1(ctx) {
+    function create_each_block$1(ctx) {
     	let div3;
     	let div2;
     	let img;
@@ -8582,15 +8507,15 @@ var app = (function () {
     	let i;
     	let t1;
     	let p;
-    	let t2_value = /*told*/ ctx[7].told + "";
+    	let t2_value = /*told*/ ctx[4].told + "";
     	let t2;
     	let t3;
     	let span0;
-    	let t4_value = /*told*/ ctx[7].name + "";
+    	let t4_value = /*told*/ ctx[4].name + "";
     	let t4;
     	let t5;
     	let span1;
-    	let t6_value = /*told*/ ctx[7].pos + "";
+    	let t6_value = /*told*/ ctx[4].pos + "";
     	let t6;
     	let t7;
 
@@ -8615,24 +8540,24 @@ var app = (function () {
     			t7 = space();
     			attr_dev(img, "alt", "");
     			attr_dev(img, "class", "d-inline-block");
-    			if (!src_url_equal(img.src, img_src_value = /*told*/ ctx[7].img)) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$7, 42, 20, 1610);
+    			if (!src_url_equal(img.src, img_src_value = /*told*/ ctx[4].img)) attr_dev(img, "src", img_src_value);
+    			add_location(img, file$7, 42, 20, 1849);
     			attr_dev(i, "class", "fa fa-quote-left icon-small text-gradient-light-purple-light-orange");
-    			add_location(i, file$7, 45, 28, 1903);
+    			add_location(i, file$7, 45, 28, 2142);
     			attr_dev(div0, "class", "testimonials-rounded-icon bg-white rounded-circle");
-    			add_location(div0, file$7, 44, 24, 1811);
-    			add_location(p, file$7, 47, 24, 2042);
+    			add_location(div0, file$7, 44, 24, 2050);
+    			add_location(p, file$7, 47, 24, 2281);
     			attr_dev(span0, "class", "alt-font font-weight-500 text-extra-dark-gray text-uppercase d-block");
-    			add_location(span0, file$7, 48, 24, 2085);
+    			add_location(span0, file$7, 48, 24, 2324);
     			attr_dev(span1, "class", "alt-font font-weight-500 text-small text-uppercase d-block");
-    			add_location(span1, file$7, 49, 24, 2211);
+    			add_location(span1, file$7, 49, 24, 2450);
     			attr_dev(div1, "class", "testimonials-content padding-3-half-rem-all text-center bg-white lg-padding-2-half-rem-lr");
-    			add_location(div1, file$7, 43, 20, 1683);
+    			add_location(div1, file$7, 43, 20, 1922);
     			attr_dev(div2, "class", "testimonials-style-02 border-radius-5px overflow-hidden");
-    			add_location(div2, file$7, 41, 16, 1520);
+    			add_location(div2, file$7, 41, 16, 1759);
     			attr_dev(div3, "class", "col wow animate__fadeIn");
     			attr_dev(div3, "data-wow-delay", "0.6s");
-    			add_location(div3, file$7, 40, 12, 1444);
+    			add_location(div3, file$7, 40, 12, 1683);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div3, anchor);
@@ -8661,7 +8586,7 @@ var app = (function () {
 
     	dispatch_dev("SvelteRegisterBlock", {
     		block,
-    		id: create_each_block_1.name,
+    		id: create_each_block$1.name,
     		type: "each",
     		source: "(40:12) {#each tolds as told }",
     		ctx
@@ -8670,68 +8595,9 @@ var app = (function () {
     	return block;
     }
 
-    // (57:12) {#each _clients as client}
-    function create_each_block$1(ctx) {
-    	let div1;
-    	let div0;
-    	let a;
-    	let img;
-    	let img_src_value;
-    	let t0;
-    	let span;
-    	let t1;
-
-    	const block = {
-    		c: function create() {
-    			div1 = element("div");
-    			div0 = element("div");
-    			a = element("a");
-    			img = element("img");
-    			t0 = space();
-    			span = element("span");
-    			t1 = space();
-    			attr_dev(img, "alt", /*client*/ ctx[4].name);
-    			if (!src_url_equal(img.src, img_src_value = /*client*/ ctx[4].img)) attr_dev(img, "src", img_src_value);
-    			add_location(img, file$7, 59, 32, 2744);
-    			attr_dev(a, "href", "#");
-    			add_location(a, file$7, 59, 20, 2732);
-    			attr_dev(span, "class", "client-overlay bg-white box-shadow-small border-radius-4px");
-    			add_location(span, file$7, 60, 20, 2813);
-    			attr_dev(div0, "class", "client-box padding-25px-all text-center");
-    			attr_dev(div0, "title", /*client*/ ctx[4].name);
-    			add_location(div0, file$7, 58, 16, 2636);
-    			attr_dev(div1, "class", "col text-center sm-no-margin wow animate__fadeIn");
-    			add_location(div1, file$7, 57, 12, 2557);
-    		},
-    		m: function mount(target, anchor) {
-    			insert_dev(target, div1, anchor);
-    			append_dev(div1, div0);
-    			append_dev(div0, a);
-    			append_dev(a, img);
-    			append_dev(div0, t0);
-    			append_dev(div0, span);
-    			append_dev(div1, t1);
-    		},
-    		p: noop,
-    		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div1);
-    		}
-    	};
-
-    	dispatch_dev("SvelteRegisterBlock", {
-    		block,
-    		id: create_each_block$1.name,
-    		type: "each",
-    		source: "(57:12) {#each _clients as client}",
-    		ctx
-    	});
-
-    	return block;
-    }
-
     function create_fragment$7(ctx) {
     	let section;
-    	let div4;
+    	let div3;
     	let div1;
     	let div0;
     	let span;
@@ -8739,17 +8605,7 @@ var app = (function () {
     	let h5;
     	let t3;
     	let div2;
-    	let t4;
-    	let div3;
-    	let each_value_1 = /*tolds*/ ctx[2];
-    	validate_each_argument(each_value_1);
-    	let each_blocks_1 = [];
-
-    	for (let i = 0; i < each_value_1.length; i += 1) {
-    		each_blocks_1[i] = create_each_block_1(get_each_context_1(ctx, each_value_1, i));
-    	}
-
-    	let each_value = /*_clients*/ ctx[3];
+    	let each_value = /*tolds*/ ctx[2];
     	validate_each_argument(each_value);
     	let each_blocks = [];
 
@@ -8760,7 +8616,7 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			section = element("section");
-    			div4 = element("div");
+    			div3 = element("div");
     			div1 = element("div");
     			div0 = element("div");
     			span = element("span");
@@ -8771,86 +8627,46 @@ var app = (function () {
     			t3 = space();
     			div2 = element("div");
 
-    			for (let i = 0; i < each_blocks_1.length; i += 1) {
-    				each_blocks_1[i].c();
-    			}
-
-    			t4 = space();
-    			div3 = element("div");
-
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
     			attr_dev(span, "class", "alt-font margin-10px-bottom d-inline-block text-uppercase font-weight-500 text-gradient-sky-blue-pink letter-spacing-1px");
-    			add_location(span, file$7, 34, 16, 969);
+    			add_location(span, file$7, 34, 16, 1208);
     			attr_dev(h5, "class", "alt-font text-extra-dark-gray font-weight-600 letter-spacing-minus-1px");
-    			add_location(h5, file$7, 35, 16, 1135);
+    			add_location(h5, file$7, 35, 16, 1374);
     			attr_dev(div0, "class", "col-12 col-md-6 text-center margin-5-rem-bottom sm-margin-3-rem-bottom");
-    			add_location(div0, file$7, 33, 12, 868);
+    			add_location(div0, file$7, 33, 12, 1107);
     			attr_dev(div1, "class", "row justify-content-center");
-    			add_location(div1, file$7, 32, 8, 815);
+    			add_location(div1, file$7, 32, 8, 1054);
     			attr_dev(div2, "class", "row row-cols-1 row-cols-lg-3 row-cols-md-2 justify-content-center margin-9-rem-bottom lg-margin-7-rem-bottom");
-    			add_location(div2, file$7, 38, 8, 1274);
-    			attr_dev(div3, "class", "row row-cols-1 row-cols-lg-6 row-cols-md-3 row-cols-sm-2 client-logo-style-04");
-    			add_location(div3, file$7, 55, 8, 2414);
-    			attr_dev(div4, "class", "container");
-    			add_location(div4, file$7, 31, 4, 783);
+    			add_location(div2, file$7, 38, 8, 1513);
+    			attr_dev(div3, "class", "container");
+    			add_location(div3, file$7, 31, 4, 1022);
     			attr_dev(section, "class", "bg-light-gray wow animate__fadeIn");
-    			add_location(section, file$7, 30, 0, 727);
+    			add_location(section, file$7, 30, 0, 966);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, section, anchor);
-    			append_dev(section, div4);
-    			append_dev(div4, div1);
+    			append_dev(section, div3);
+    			append_dev(div3, div1);
     			append_dev(div1, div0);
     			append_dev(div0, span);
     			append_dev(div0, t1);
     			append_dev(div0, h5);
-    			append_dev(div4, t3);
-    			append_dev(div4, div2);
-
-    			for (let i = 0; i < each_blocks_1.length; i += 1) {
-    				each_blocks_1[i].m(div2, null);
-    			}
-
-    			append_dev(div4, t4);
-    			append_dev(div4, div3);
+    			append_dev(div3, t3);
+    			append_dev(div3, div2);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
-    				each_blocks[i].m(div3, null);
+    				each_blocks[i].m(div2, null);
     			}
     		},
     		p: function update(ctx, [dirty]) {
     			if (dirty & /*tolds*/ 4) {
-    				each_value_1 = /*tolds*/ ctx[2];
-    				validate_each_argument(each_value_1);
-    				let i;
-
-    				for (i = 0; i < each_value_1.length; i += 1) {
-    					const child_ctx = get_each_context_1(ctx, each_value_1, i);
-
-    					if (each_blocks_1[i]) {
-    						each_blocks_1[i].p(child_ctx, dirty);
-    					} else {
-    						each_blocks_1[i] = create_each_block_1(child_ctx);
-    						each_blocks_1[i].c();
-    						each_blocks_1[i].m(div2, null);
-    					}
-    				}
-
-    				for (; i < each_blocks_1.length; i += 1) {
-    					each_blocks_1[i].d(1);
-    				}
-
-    				each_blocks_1.length = each_value_1.length;
-    			}
-
-    			if (dirty & /*_clients*/ 8) {
-    				each_value = /*_clients*/ ctx[3];
+    				each_value = /*tolds*/ ctx[2];
     				validate_each_argument(each_value);
     				let i;
 
@@ -8862,7 +8678,7 @@ var app = (function () {
     					} else {
     						each_blocks[i] = create_each_block$1(child_ctx);
     						each_blocks[i].c();
-    						each_blocks[i].m(div3, null);
+    						each_blocks[i].m(div2, null);
     					}
     				}
 
@@ -8877,7 +8693,6 @@ var app = (function () {
     		o: noop,
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(section);
-    			destroy_each(each_blocks_1, detaching);
     			destroy_each(each_blocks, detaching);
     		}
     	};
@@ -8896,27 +8711,27 @@ var app = (function () {
     function instance$7($$self, $$props, $$invalidate) {
     	let { $$slots: slots = {}, $$scope } = $$props;
     	validate_slots('Told', slots, []);
-    	let title = "تایتل";
-    	let title2 = "تایتل2";
+    	let title = "";
+    	let title2 = "از مشتری ها بشنوید";
 
     	let tolds = [
     		{
-    			told: "عالی است بسیار بسیار",
-    			name: "احمد ذوقی",
-    			pos: "مدیر مالی آستارا",
-    			img: "images/testimonial-img-11.jpg"
+    			told: "با گروه میز گرد حالا به فراتر از یک کلاس و مدرسه تدریس می کنم",
+    			name: "استاد ساداتیان مدرس فیزیک",
+    			pos: "دبیر برتر فیزیک استان البرز",
+    			img: "images/sadatian.png"
     		},
     		{
-    			told: "عالی است بسیار بسیار",
-    			name: "احمد ذوقی",
-    			pos: "مدیر مالی آستارا",
-    			img: "images/testimonial-img-11.jpg"
+    			told: "علاوه بر هزینه کمتر که برای نشون دادن فایل ها هزینه میکنم لازم نیست وقتمو مثل قبل هدر بدم حالا همون کار هارو با وقت و هزینه کمتر انجام میدم",
+    			name: "علیرضا محمدکریمی",
+    			pos: "مدیریت املاک املاک ایوان مدائن ",
+    			img: "images/k-madaen.png"
     		},
     		{
-    			told: "عالی است بسیار بسیار",
-    			name: "احمد ذوقی",
-    			pos: "مدیر مالی آستارا",
-    			img: "images/testimonial-img-11.jpg"
+    			told: "فوت کوزه گری توی کسب و کارتون توی دستای گروه میزگرده",
+    			name: "محمد مهدی میزان",
+    			pos: "مدیریت صنایع چوبی و مبلمان میزان",
+    			img: "images/k-mizan.png"
     		}
     	];
 
@@ -8933,14 +8748,14 @@ var app = (function () {
     		if ('title' in $$props) $$invalidate(0, title = $$props.title);
     		if ('title2' in $$props) $$invalidate(1, title2 = $$props.title2);
     		if ('tolds' in $$props) $$invalidate(2, tolds = $$props.tolds);
-    		if ('_clients' in $$props) $$invalidate(3, _clients = $$props._clients);
+    		if ('_clients' in $$props) _clients = $$props._clients;
     	};
 
     	if ($$props && "$$inject" in $$props) {
     		$$self.$inject_state($$props.$$inject);
     	}
 
-    	return [title, title2, tolds, _clients];
+    	return [title, title2, tolds];
     }
 
     class Told extends SvelteComponentDev {
@@ -8983,7 +8798,7 @@ var app = (function () {
     	title = new Title$1({
     			props: {
     				page: "خدمات ما",
-    				description: "بیا باز زندگی کنیم با هم"
+    				description: "با خدمات ما چند پله بالا تر باشید"
     			},
     			$$inline: true
     		});
@@ -9278,16 +9093,16 @@ var app = (function () {
     			t4 = space();
     			if (!src_url_equal(img.src, img_src_value = /*sample*/ ctx[0].img)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*sample*/ ctx[0].name);
-    			add_location(img, file$4, 15, 36, 805);
+    			add_location(img, file$4, 15, 36, 780);
     			attr_dev(div0, "class", "alt-font text-extra-dark-gray font-weight-500 d-block");
-    			add_location(div0, file$4, 18, 44, 1073);
+    			add_location(div0, file$4, 18, 44, 1070);
     			attr_dev(div1, "class", "text-uppercase text-medium-gray text-small alt-font d-block");
-    			add_location(div1, file$4, 19, 44, 1204);
+    			add_location(div1, file$4, 19, 44, 1201);
     			attr_dev(div2, "class", "scale");
-    			add_location(div2, file$4, 17, 40, 1009);
-    			attr_dev(div3, "class", "portfolio-hover bg-white justify-content-center d-flex flex-column");
-    			add_location(div3, file$4, 16, 36, 888);
-    			attr_dev(div4, "class", "portfolio-image bg-gradient-sky-blue-pink");
+    			add_location(div2, file$4, 17, 40, 1006);
+    			attr_dev(div3, "class", "portfolio-hover opacity-6 bg-transparent-white justify-content-center d-flex flex-column");
+    			add_location(div3, file$4, 16, 36, 863);
+    			attr_dev(div4, "class", "portfolio-image ");
     			add_location(div4, file$4, 14, 32, 713);
     			attr_dev(div5, "class", "portfolio-box");
     			add_location(div5, file$4, 13, 28, 653);

@@ -1,5 +1,5 @@
 <script>
-    let about_us = "درباره میز گرد"
+    let about_us = ""
     let who_we_are = "ما میز گرد هستیم"
 
 </script>

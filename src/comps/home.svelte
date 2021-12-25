@@ -24,9 +24,8 @@
     <Ability/>
     <Process/>
     <Samples/>
-    <Team/>
     <Explain/>
-    <Counter/>
+    <Team/>
     <Footer/>
 </main>
 
